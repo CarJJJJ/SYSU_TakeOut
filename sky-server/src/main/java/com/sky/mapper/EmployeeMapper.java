@@ -33,4 +33,18 @@ public interface EmployeeMapper {
      */
     // 由于需要使用到动态SQL，所以只能写才XML
     Page<Employee> pageQuery(EmployeePageQueryDTO employeePageQueryDTO);
+
+    /**
+     * 启用或禁用员工账号
+     * @param employee
+     */
+    void update(Employee employee);
+
+    /**
+     * 根据id查询员工
+     * @param id
+     * @return
+     */
+    @Select("select * from employee where id = #{id}")
+    Employee getById(Long id);
 }
