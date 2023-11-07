@@ -1,0 +1,57 @@
+1:C 11 Oct 2023 13:48:48.277 # WARNING: Changing databases number from 16 to 1 since we are in cluster mode
+1:C 11 Oct 2023 13:48:48.281 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 11 Oct 2023 13:48:48.285 * Redis version=7.2.1, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 11 Oct 2023 13:48:48.289 * Configuration loaded
+1:M 11 Oct 2023 13:48:48.293 * monotonic clock: POSIX clock_gettime
+1:M 11 Oct 2023 13:48:48.296 * Running mode=cluster, port=7007.
+1:M 11 Oct 2023 13:48:48.301 * No cluster configuration found, I'm 8fca305dce9135505dc18fbb5664d15fc48f5e29
+1:M 11 Oct 2023 13:48:48.307 * Server initialized
+1:M 11 Oct 2023 13:48:48.319 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+1:M 11 Oct 2023 13:48:48.329 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 11 Oct 2023 13:48:48.330 * Ready to accept connections tcp
+1:M 11 Oct 2023 13:49:03.987 * Cluster state changed: ok
+1:M 11 Oct 2023 13:58:45.198 * New configEpoch set to 10
+1:M 11 Oct 2023 13:58:45.202 * configEpoch updated after importing slot 0
+1:M 11 Oct 2023 14:01:39.534 * FAIL message received from a0b272c7e03c9aaba3a8bf363fbef47291f4eccc () about 30d41f943b1e46dac8e4642bfaae41038367d7d1 ()
+1:M 11 Oct 2023 14:01:39.540 # Cluster state changed: fail
+1:M 11 Oct 2023 14:01:40.492 * Failover auth granted to fc361c1007819934704fb8de3f33369293fe94f9 () for epoch 11
+1:M 11 Oct 2023 14:01:40.515 * Cluster state changed: ok
+1:M 11 Oct 2023 14:02:36.148 * Clear FAIL state for node 30d41f943b1e46dac8e4642bfaae41038367d7d1 ():master without slots is reachable again.
+1:M 11 Oct 2023 14:59:54.088 * 1 changes in 3600 seconds. Saving...
+1:M 11 Oct 2023 14:59:54.104 * Background saving started by pid 22
+22:C 11 Oct 2023 14:59:54.119 * DB saved on disk
+22:C 11 Oct 2023 14:59:54.124 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 11 Oct 2023 14:59:54.210 * Background saving terminated with success
+1:M 16 Oct 2023 00:51:12.621 # Cluster state changed: fail
+1:signal-handler (1699260567) Received SIGTERM scheduling shutdown...
+1:M 06 Nov 2023 08:49:27.101 * User requested shutdown...
+1:M 06 Nov 2023 08:49:27.114 * Calling fsync() on the AOF file.
+1:M 06 Nov 2023 08:49:27.143 * Saving the final RDB snapshot before exiting.
+1:M 06 Nov 2023 08:49:27.241 * DB saved on disk
+1:M 06 Nov 2023 08:49:27.267 # Redis is now ready to exit, bye bye...
+1:C 06 Nov 2023 08:49:31.448 # WARNING: Changing databases number from 16 to 1 since we are in cluster mode
+1:C 06 Nov 2023 08:49:31.469 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 06 Nov 2023 08:49:31.477 * Redis version=7.2.1, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 06 Nov 2023 08:49:31.482 * Configuration loaded
+1:M 06 Nov 2023 08:49:31.493 * monotonic clock: POSIX clock_gettime
+1:M 06 Nov 2023 08:49:31.504 * Running mode=cluster, port=7007.
+1:M 06 Nov 2023 08:49:31.535 * Node configuration loaded, I'm 8fca305dce9135505dc18fbb5664d15fc48f5e29
+1:M 06 Nov 2023 08:49:31.550 * Server initialized
+1:M 06 Nov 2023 08:49:31.595 * Reading RDB base file on AOF loading...
+1:M 06 Nov 2023 08:49:31.608 * Loading RDB produced by version 7.2.1
+1:M 06 Nov 2023 08:49:31.624 * RDB age 2228443 seconds
+1:M 06 Nov 2023 08:49:31.637 * RDB memory usage when created 1.54 Mb
+1:M 06 Nov 2023 08:49:31.653 * RDB is base AOF
+1:M 06 Nov 2023 08:49:31.667 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 06 Nov 2023 08:49:31.673 * DB loaded from base file appendonly.aof.1.base.rdb: 0.097 seconds
+1:M 06 Nov 2023 08:49:31.694 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.005 seconds
+1:M 06 Nov 2023 08:49:31.704 * DB loaded from append only file: 0.129 seconds
+1:M 06 Nov 2023 08:49:31.716 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 06 Nov 2023 08:49:31.723 * Ready to accept connections tcp
+1:M 06 Nov 2023 08:49:33.775 * Cluster state changed: ok
+1:M 06 Nov 2023 08:49:39.129 # Cluster state changed: fail
+1:M 06 Nov 2023 10:17:02.310 * 1 changes in 3600 seconds. Saving...
+1:M 06 Nov 2023 10:17:02.334 * Background saving started by pid 22
+22:C 06 Nov 2023 10:17:02.355 * DB saved on disk
+22:C 06 Nov 2023 10:17:02.374 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 06 Nov 2023 10:17:02.443 * Background saving terminated with success

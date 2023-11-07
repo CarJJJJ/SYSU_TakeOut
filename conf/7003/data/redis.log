@@ -1,0 +1,762 @@
+1:C 10 Oct 2023 14:35:14.776 # WARNING: Changing databases number from 16 to 1 since we are in cluster mode
+1:C 10 Oct 2023 14:35:14.780 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 10 Oct 2023 14:35:14.782 * Redis version=7.2.1, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 10 Oct 2023 14:35:14.784 * Configuration loaded
+1:M 10 Oct 2023 14:35:14.786 * monotonic clock: POSIX clock_gettime
+1:M 10 Oct 2023 14:35:14.789 * Running mode=cluster, port=7003.
+1:M 10 Oct 2023 14:35:14.793 * No cluster configuration found, I'm fc361c1007819934704fb8de3f33369293fe94f9
+1:M 10 Oct 2023 14:35:14.798 * Server initialized
+1:M 10 Oct 2023 14:35:14.806 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+1:M 10 Oct 2023 14:35:14.817 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 10 Oct 2023 14:35:14.818 * Ready to accept connections tcp
+1:M 10 Oct 2023 14:37:48.906 * configEpoch set to 3 via CLUSTER SET-CONFIG-EPOCH
+1:M 10 Oct 2023 14:37:51.032 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 10 Oct 2023 14:37:51.035 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'dac72cf4b369e61e390130556f3ce7db1cb72510', my replication IDs are '969cbcd9c429451d27270230ac38403be2e97ab4' and '0000000000000000000000000000000000000000')
+1:M 10 Oct 2023 14:37:51.037 * Replication backlog created, my new replication IDs are 'd17c5ae28c7d4986ccdb54195ab20b5db29e7aa8' and '0000000000000000000000000000000000000000'
+1:M 10 Oct 2023 14:37:51.041 * Delay next BGSAVE for diskless SYNC
+1:M 10 Oct 2023 14:37:53.878 * Cluster state changed: ok
+1:M 10 Oct 2023 14:37:56.129 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 10 Oct 2023 14:37:56.146 * Background RDB transfer started by pid 22
+22:C 10 Oct 2023 14:37:56.146 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 10 Oct 2023 14:37:56.156 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 10 Oct 2023 14:37:56.209 * Background RDB transfer terminated with success
+1:M 10 Oct 2023 14:37:56.210 * Streamed RDB transfer with replica 172.17.0.1:7004 succeeded (socket). Waiting for REPLCONF ACK from replica to enable streaming
+1:M 10 Oct 2023 14:37:56.212 * Synchronization with replica 172.17.0.1:7004 succeeded
+1:M 10 Oct 2023 15:18:29.532 * Connection with replica 172.17.0.1:7004 lost.
+1:M 10 Oct 2023 15:18:29.548 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 10 Oct 2023 15:18:29.551 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 1107.
+1:M 10 Oct 2023 16:17:02.420 * Connection with replica 172.17.0.1:7004 lost.
+1:M 10 Oct 2023 16:17:02.432 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 10 Oct 2023 16:17:02.434 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 1135.
+1:M 10 Oct 2023 17:22:03.318 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 10 Oct 2023 17:22:03.321 * Connection with replica 172.17.0.1:7004 lost.
+1:M 10 Oct 2023 17:22:03.350 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 10 Oct 2023 17:22:03.352 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 1177.
+1:M 10 Oct 2023 18:03:22.851 * Connection with replica 172.17.0.1:7004 lost.
+1:M 10 Oct 2023 18:03:22.868 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 10 Oct 2023 18:03:22.871 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 1219.
+1:M 10 Oct 2023 19:02:09.756 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 10 Oct 2023 19:02:09.759 * Connection with replica 172.17.0.1:7004 lost.
+1:M 10 Oct 2023 19:02:09.782 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 10 Oct 2023 19:02:09.785 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 1261.
+1:M 10 Oct 2023 20:24:48.319 * Connection with replica 172.17.0.1:7004 lost.
+1:M 10 Oct 2023 20:24:48.336 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 10 Oct 2023 20:24:48.338 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 1303.
+1:M 10 Oct 2023 21:46:15.029 * Connection with replica 172.17.0.1:7004 lost.
+1:M 10 Oct 2023 21:46:15.046 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 10 Oct 2023 21:46:15.049 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 1345.
+1:M 10 Oct 2023 22:34:42.038 * Connection with replica 172.17.0.1:7004 lost.
+1:M 10 Oct 2023 22:34:42.053 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 10 Oct 2023 22:34:42.055 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 1373.
+1:M 10 Oct 2023 23:44:14.347 * Connection with replica 172.17.0.1:7004 lost.
+1:M 10 Oct 2023 23:44:14.365 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 10 Oct 2023 23:44:14.368 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 1415.
+1:M 11 Oct 2023 00:31:48.745 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 00:31:48.759 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 00:31:48.763 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 1457.
+1:M 11 Oct 2023 01:36:18.846 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 01:36:18.862 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 01:36:18.866 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 1499.
+1:M 11 Oct 2023 02:42:25.251 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 02:42:25.293 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 02:42:25.305 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 1541.
+1:M 11 Oct 2023 03:00:50.259 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 11 Oct 2023 03:00:50.264 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 03:00:50.327 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 03:00:50.331 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 2073.
+1:M 11 Oct 2023 03:57:50.537 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 11 Oct 2023 03:57:50.663 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 03:57:50.716 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 03:57:50.719 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 5909.
+1:M 11 Oct 2023 04:27:43.703 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 11 Oct 2023 04:27:43.712 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 04:27:43.743 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 04:27:43.745 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 5951.
+1:M 11 Oct 2023 06:07:17.052 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 11 Oct 2023 06:07:17.057 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 06:07:17.083 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 06:07:17.086 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 8681.
+1:M 11 Oct 2023 06:23:53.141 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 11 Oct 2023 06:23:53.145 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 06:23:53.165 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 06:23:53.166 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 8723.
+1:M 11 Oct 2023 07:01:53.839 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 11 Oct 2023 07:01:53.849 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 07:01:53.896 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 07:01:53.899 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 10879.
+1:M 11 Oct 2023 07:25:18.743 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 11 Oct 2023 07:25:18.758 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 07:25:18.825 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 07:25:18.831 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 12111.
+1:M 11 Oct 2023 09:15:13.890 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 09:15:14.168 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 09:15:14.172 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 16717.
+1:M 11 Oct 2023 10:20:21.324 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 10:20:21.350 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 10:20:21.354 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 16759.
+1:M 11 Oct 2023 11:33:36.510 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 11:33:36.530 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 11:33:36.532 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 16801.
+1:M 11 Oct 2023 11:42:48.831 # Cluster state changed: fail
+1:M 11 Oct 2023 11:42:49.148 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 11 Oct 2023 11:42:49.151 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 11:42:50.527 * Marking node 8f36116236668185065effcfb920646894ce9ff1 () as failing (quorum reached).
+1:M 11 Oct 2023 11:42:50.532 * Marking node 30d41f943b1e46dac8e4642bfaae41038367d7d1 () as failing (quorum reached).
+1:M 11 Oct 2023 11:42:50.536 * Marking node 486620b24835678829a1357f8b4abde083aed390 () as failing (quorum reached).
+1:M 11 Oct 2023 11:42:50.540 * Marking node a0b272c7e03c9aaba3a8bf363fbef47291f4eccc () as failing (quorum reached).
+1:M 11 Oct 2023 11:42:50.583 * Clear FAIL state for node 30d41f943b1e46dac8e4642bfaae41038367d7d1 ():replica is reachable again.
+1:M 11 Oct 2023 11:42:50.603 * Clear FAIL state for node 8f36116236668185065effcfb920646894ce9ff1 ():replica is reachable again.
+1:M 11 Oct 2023 11:42:50.619 * Clear FAIL state for node 486620b24835678829a1357f8b4abde083aed390 ():replica is reachable again.
+1:M 11 Oct 2023 11:42:50.628 * FAIL message received from 486620b24835678829a1357f8b4abde083aed390 () about 30d41f943b1e46dac8e4642bfaae41038367d7d1 ()
+1:M 11 Oct 2023 11:42:51.079 * Clear FAIL state for node 30d41f943b1e46dac8e4642bfaae41038367d7d1 ():replica is reachable again.
+1:M 11 Oct 2023 11:42:51.162 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 11:42:51.164 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 17291.
+1:M 11 Oct 2023 11:42:51.331 # Failover auth denied to 486620b24835678829a1357f8b4abde083aed390 (): its master is up
+1:M 11 Oct 2023 11:42:51.473 # Failover auth denied to 30d41f943b1e46dac8e4642bfaae41038367d7d1 (): its master is up
+1:M 11 Oct 2023 11:42:51.500 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 11:42:51.512 * Configuration change detected. Reconfiguring myself as a replica of 30d41f943b1e46dac8e4642bfaae41038367d7d1 ()
+1:S 11 Oct 2023 11:42:51.516 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+1:S 11 Oct 2023 11:42:51.524 * Connecting to MASTER 192.168.1.25:7004
+1:S 11 Oct 2023 11:42:51.531 * MASTER <-> REPLICA sync started
+1:S 11 Oct 2023 11:42:51.542 * Non blocking connect for SYNC fired the event.
+1:S 11 Oct 2023 11:42:51.550 * Master replied to PING, replication can continue...
+1:S 11 Oct 2023 11:42:51.560 * Trying a partial resynchronization (request d17c5ae28c7d4986ccdb54195ab20b5db29e7aa8:17291).
+1:S 11 Oct 2023 11:42:51.589 * Successful partial resynchronization with master.
+1:S 11 Oct 2023 11:42:51.598 * Master replication ID changed to 520c6a09ca9ac3e88eddd930425ca9a355ca99ea
+1:S 11 Oct 2023 11:42:51.603 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 11 Oct 2023 11:42:51.638 * Cluster state changed: ok
+1:S 11 Oct 2023 11:42:52.118 * Clear FAIL state for node a0b272c7e03c9aaba3a8bf363fbef47291f4eccc ():master without slots is reachable again.
+1:S 11 Oct 2023 14:01:24.233 * Connection with master lost.
+1:S 11 Oct 2023 14:01:24.236 * Caching the disconnected master state.
+1:S 11 Oct 2023 14:01:24.239 * Reconnecting to MASTER 192.168.1.25:7004
+1:S 11 Oct 2023 14:01:24.243 * MASTER <-> REPLICA sync started
+1:S 11 Oct 2023 14:01:24.245 * Non blocking connect for SYNC fired the event.
+1:S 11 Oct 2023 14:01:24.247 # Failed to read response from the server: Success
+1:S 11 Oct 2023 14:01:24.250 # Master did not respond to command during SYNC handshake
+1:S 11 Oct 2023 14:01:24.720 * Connecting to MASTER 192.168.1.25:7004
+1:S 11 Oct 2023 14:01:24.725 * MASTER <-> REPLICA sync started
+1:S 11 Oct 2023 14:01:24.730 # Error condition on socket for SYNC: Connection refused
+1:S 11 Oct 2023 14:01:25.748 * Connecting to MASTER 192.168.1.25:7004
+1:S 11 Oct 2023 14:01:25.755 * MASTER <-> REPLICA sync started
+1:S 11 Oct 2023 14:01:25.764 # Error condition on socket for SYNC: Connection refused
+1:S 11 Oct 2023 14:01:26.785 * Connecting to MASTER 192.168.1.25:7004
+1:S 11 Oct 2023 14:01:26.798 * MASTER <-> REPLICA sync started
+1:S 11 Oct 2023 14:01:26.809 # Error condition on socket for SYNC: Connection refused
+1:S 11 Oct 2023 14:01:27.828 * Connecting to MASTER 192.168.1.25:7004
+1:S 11 Oct 2023 14:01:27.834 * MASTER <-> REPLICA sync started
+1:S 11 Oct 2023 14:01:27.838 # Error condition on socket for SYNC: Connection refused
+1:S 11 Oct 2023 14:01:28.861 * Connecting to MASTER 192.168.1.25:7004
+1:S 11 Oct 2023 14:01:28.870 * MASTER <-> REPLICA sync started
+1:S 11 Oct 2023 14:01:28.881 # Error condition on socket for SYNC: Connection refused
+1:S 11 Oct 2023 14:01:29.899 * Connecting to MASTER 192.168.1.25:7004
+1:S 11 Oct 2023 14:01:29.908 * MASTER <-> REPLICA sync started
+1:S 11 Oct 2023 14:01:29.915 # Error condition on socket for SYNC: Connection refused
+1:S 11 Oct 2023 14:01:30.951 * Connecting to MASTER 192.168.1.25:7004
+1:S 11 Oct 2023 14:01:30.960 * MASTER <-> REPLICA sync started
+1:S 11 Oct 2023 14:01:30.968 # Error condition on socket for SYNC: Connection refused
+1:S 11 Oct 2023 14:01:32.015 * Connecting to MASTER 192.168.1.25:7004
+1:S 11 Oct 2023 14:01:32.024 * MASTER <-> REPLICA sync started
+1:S 11 Oct 2023 14:01:32.030 # Error condition on socket for SYNC: Connection refused
+1:S 11 Oct 2023 14:01:33.056 * Connecting to MASTER 192.168.1.25:7004
+1:S 11 Oct 2023 14:01:33.066 * MASTER <-> REPLICA sync started
+1:S 11 Oct 2023 14:01:33.073 # Error condition on socket for SYNC: Connection refused
+1:S 11 Oct 2023 14:01:34.102 * Connecting to MASTER 192.168.1.25:7004
+1:S 11 Oct 2023 14:01:34.118 * MASTER <-> REPLICA sync started
+1:S 11 Oct 2023 14:01:34.125 # Error condition on socket for SYNC: Connection refused
+1:S 11 Oct 2023 14:01:35.172 * Connecting to MASTER 192.168.1.25:7004
+1:S 11 Oct 2023 14:01:35.182 * MASTER <-> REPLICA sync started
+1:S 11 Oct 2023 14:01:35.189 # Error condition on socket for SYNC: Connection refused
+1:S 11 Oct 2023 14:01:36.209 * Connecting to MASTER 192.168.1.25:7004
+1:S 11 Oct 2023 14:01:36.213 * MASTER <-> REPLICA sync started
+1:S 11 Oct 2023 14:01:36.217 # Error condition on socket for SYNC: Connection refused
+1:S 11 Oct 2023 14:01:37.247 * Connecting to MASTER 192.168.1.25:7004
+1:S 11 Oct 2023 14:01:37.255 * MASTER <-> REPLICA sync started
+1:S 11 Oct 2023 14:01:37.272 # Error condition on socket for SYNC: Connection refused
+1:S 11 Oct 2023 14:01:38.316 * Connecting to MASTER 192.168.1.25:7004
+1:S 11 Oct 2023 14:01:38.323 * MASTER <-> REPLICA sync started
+1:S 11 Oct 2023 14:01:38.329 # Error condition on socket for SYNC: Connection refused
+1:S 11 Oct 2023 14:01:39.363 * Connecting to MASTER 192.168.1.25:7004
+1:S 11 Oct 2023 14:01:39.371 * MASTER <-> REPLICA sync started
+1:S 11 Oct 2023 14:01:39.381 # Error condition on socket for SYNC: Connection refused
+1:S 11 Oct 2023 14:01:39.532 * FAIL message received from a0b272c7e03c9aaba3a8bf363fbef47291f4eccc () about 30d41f943b1e46dac8e4642bfaae41038367d7d1 ()
+1:S 11 Oct 2023 14:01:39.538 # Cluster state changed: fail
+1:S 11 Oct 2023 14:01:39.580 * Start of election delayed for 802 milliseconds (rank #0, offset 28546).
+1:S 11 Oct 2023 14:01:40.430 * Connecting to MASTER 192.168.1.25:7004
+1:S 11 Oct 2023 14:01:40.463 * MASTER <-> REPLICA sync started
+1:S 11 Oct 2023 14:01:40.480 * Starting a failover election for epoch 11.
+1:S 11 Oct 2023 14:01:40.488 # Error condition on socket for SYNC: Connection refused
+1:S 11 Oct 2023 14:01:40.500 * Failover election won: I'm the new master.
+1:S 11 Oct 2023 14:01:40.502 * configEpoch set to 11 after successful failover
+1:M 11 Oct 2023 14:01:40.504 * Discarding previously cached master state.
+1:M 11 Oct 2023 14:01:40.506 * Setting secondary replication ID to 520c6a09ca9ac3e88eddd930425ca9a355ca99ea, valid up to offset: 28547. New replication ID is ca5fffc41f559ca11a2e66ffaace96a69672fbb3
+1:M 11 Oct 2023 14:01:40.509 * Cluster state changed: ok
+1:M 11 Oct 2023 14:02:36.147 * Clear FAIL state for node 30d41f943b1e46dac8e4642bfaae41038367d7d1 ():master without slots is reachable again.
+1:M 11 Oct 2023 14:02:36.168 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 14:02:36.170 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'e4df458f89791c664e430f539be88d2031c803aa', my replication IDs are 'ca5fffc41f559ca11a2e66ffaace96a69672fbb3' and '520c6a09ca9ac3e88eddd930425ca9a355ca99ea')
+1:M 11 Oct 2023 14:02:36.172 * Delay next BGSAVE for diskless SYNC
+1:M 11 Oct 2023 14:02:41.470 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 11 Oct 2023 14:02:41.485 * Background RDB transfer started by pid 23
+23:C 11 Oct 2023 14:02:41.485 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 11 Oct 2023 14:02:41.497 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 11 Oct 2023 14:02:41.548 * Background RDB transfer terminated with success
+1:M 11 Oct 2023 14:02:41.550 * Streamed RDB transfer with replica 172.17.0.1:7004 succeeded (socket). Waiting for REPLCONF ACK from replica to enable streaming
+1:M 11 Oct 2023 14:02:41.552 * Synchronization with replica 172.17.0.1:7004 succeeded
+1:M 11 Oct 2023 14:59:54.161 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 14:59:54.172 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 14:59:54.174 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 30745.
+1:M 11 Oct 2023 16:21:47.938 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 16:21:47.954 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 16:21:47.957 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 30787.
+1:M 11 Oct 2023 17:04:05.062 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 17:04:05.080 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 17:04:05.082 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 30829.
+1:M 11 Oct 2023 17:48:24.259 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 17:48:24.273 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 17:48:24.275 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 30871.
+1:M 11 Oct 2023 19:11:24.981 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 19:11:24.996 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 19:11:24.998 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 30899.
+1:M 11 Oct 2023 19:47:12.167 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 19:47:12.183 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 19:47:12.187 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 30941.
+1:M 11 Oct 2023 20:36:01.773 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 20:36:01.797 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 20:36:01.800 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 30983.
+1:M 11 Oct 2023 21:58:37.486 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 21:58:37.506 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 21:58:37.509 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 31025.
+1:M 11 Oct 2023 22:50:09.124 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 11 Oct 2023 22:50:09.132 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 22:50:09.157 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 22:50:09.159 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 31067.
+1:M 11 Oct 2023 23:54:21.966 * Connection with replica 172.17.0.1:7004 lost.
+1:M 11 Oct 2023 23:54:21.980 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 11 Oct 2023 23:54:21.983 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 31109.
+1:M 12 Oct 2023 01:16:33.340 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 01:16:33.368 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 01:16:33.372 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 31137.
+1:M 12 Oct 2023 02:37:37.199 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 02:37:37.227 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 02:37:37.231 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 31179.
+1:M 12 Oct 2023 03:09:28.799 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 03:09:28.816 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 03:09:28.819 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 31221.
+1:M 12 Oct 2023 04:12:56.590 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 04:12:56.605 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 04:12:56.607 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 31263.
+1:M 12 Oct 2023 05:53:28.531 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 05:53:28.548 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 05:53:28.550 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 31305.
+1:M 12 Oct 2023 07:15:09.537 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 07:15:09.562 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 07:15:09.565 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 31333.
+1:M 12 Oct 2023 08:55:46.604 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 08:55:46.628 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 08:55:46.631 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 31375.
+1:M 12 Oct 2023 10:18:47.835 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 10:18:47.861 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 10:18:47.865 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 31417.
+1:M 12 Oct 2023 10:51:52.836 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 10:51:52.859 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 10:51:52.861 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 31459.
+1:M 12 Oct 2023 11:46:30.540 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 11:46:30.562 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 11:46:30.565 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 35785.
+1:M 12 Oct 2023 11:51:17.361 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 11:51:17.385 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 11:51:17.389 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 36079.
+1:M 12 Oct 2023 13:45:45.478 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 13:45:45.500 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 13:45:45.504 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 45249.
+1:M 12 Oct 2023 14:48:56.900 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 14:48:56.915 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 14:48:56.918 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 48763.
+1:M 12 Oct 2023 15:39:50.782 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 15:39:50.813 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 15:39:50.818 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 48805.
+1:M 12 Oct 2023 16:31:14.358 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 16:31:14.374 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 16:31:14.376 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 48847.
+1:M 12 Oct 2023 17:51:31.260 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 17:51:31.276 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 17:51:31.278 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 48875.
+1:M 12 Oct 2023 19:09:27.331 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 19:09:27.349 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 19:09:27.351 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 48917.
+1:M 12 Oct 2023 19:56:42.736 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 19:56:42.761 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 19:56:42.764 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 48959.
+1:M 12 Oct 2023 21:22:09.679 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 12 Oct 2023 21:22:09.689 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 21:22:09.737 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 21:22:09.740 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49001.
+1:M 12 Oct 2023 22:32:30.777 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 12 Oct 2023 22:32:30.785 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 22:32:30.815 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 22:32:30.818 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49043.
+1:M 12 Oct 2023 23:57:36.611 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 12 Oct 2023 23:57:36.621 * Connection with replica 172.17.0.1:7004 lost.
+1:M 12 Oct 2023 23:57:36.654 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 12 Oct 2023 23:57:36.658 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49071.
+1:M 13 Oct 2023 01:19:06.873 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 01:19:06.879 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 01:19:06.916 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 01:19:06.918 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49113.
+1:M 13 Oct 2023 02:41:27.610 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 02:41:27.617 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 02:41:27.666 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 02:41:27.669 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49155.
+1:M 13 Oct 2023 03:50:07.028 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 03:50:07.033 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 03:50:07.064 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 03:50:07.068 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49197.
+1:M 13 Oct 2023 05:09:48.820 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 05:09:48.825 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 05:09:48.862 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 05:09:48.865 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49239.
+1:M 13 Oct 2023 05:47:31.084 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 05:47:31.088 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 05:47:31.112 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 05:47:31.114 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49267.
+1:M 13 Oct 2023 06:30:50.671 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 06:30:50.676 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 06:30:50.711 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 06:30:50.714 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49309.
+1:M 13 Oct 2023 07:11:31.228 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 07:11:31.234 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 07:11:31.267 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 07:11:31.270 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49351.
+1:M 13 Oct 2023 07:51:34.177 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 07:51:34.216 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 07:51:34.220 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49393.
+1:M 13 Oct 2023 08:55:32.219 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 08:55:32.230 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 08:55:32.269 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 08:55:32.272 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49435.
+1:M 13 Oct 2023 10:03:43.522 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 10:03:43.526 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 10:03:43.550 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 10:03:43.552 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 14 bytes of backlog starting from offset 49463.
+1:M 13 Oct 2023 11:00:05.224 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 11:00:05.228 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 11:00:05.259 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 11:00:05.263 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49505.
+1:M 13 Oct 2023 12:06:02.671 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 12:06:02.675 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 12:06:02.724 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 12:06:02.728 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49547.
+1:M 13 Oct 2023 13:10:38.944 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 13:10:38.954 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 13:10:39.000 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 13:10:39.002 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49589.
+1:M 13 Oct 2023 14:24:21.766 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 14:24:21.789 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 14:24:21.792 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49631.
+1:M 13 Oct 2023 15:49:02.438 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 15:49:02.444 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 15:49:02.468 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 15:49:02.471 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49659.
+1:M 13 Oct 2023 17:10:04.403 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 17:10:04.407 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 17:10:04.454 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 17:10:04.457 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49701.
+1:M 13 Oct 2023 18:06:44.777 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 18:06:44.786 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 18:06:44.835 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 18:06:44.838 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49743.
+1:M 13 Oct 2023 19:24:40.021 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 19:24:40.023 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 19:24:40.048 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 19:24:40.050 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49785.
+1:M 13 Oct 2023 20:23:32.245 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 20:23:32.247 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 20:23:32.274 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 20:23:32.276 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49827.
+1:M 13 Oct 2023 21:30:20.767 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 21:30:20.771 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 21:30:20.795 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 21:30:20.798 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49855.
+1:M 13 Oct 2023 22:51:31.599 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 13 Oct 2023 22:51:31.603 * Connection with replica 172.17.0.1:7004 lost.
+1:M 13 Oct 2023 22:51:31.636 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 13 Oct 2023 22:51:31.638 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49897.
+1:M 14 Oct 2023 00:16:41.470 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 14 Oct 2023 00:16:41.473 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 00:16:41.494 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 00:16:41.496 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49939.
+1:M 14 Oct 2023 01:40:25.126 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 14 Oct 2023 01:40:25.131 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 01:40:25.161 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 01:40:25.164 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 49981.
+1:M 14 Oct 2023 02:56:30.816 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 14 Oct 2023 02:56:30.821 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 02:56:30.846 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 02:56:30.848 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 50023.
+1:M 14 Oct 2023 04:18:48.260 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 14 Oct 2023 04:18:48.264 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 04:18:48.291 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 04:18:48.296 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 50051.
+1:M 14 Oct 2023 05:41:37.903 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 14 Oct 2023 05:41:37.906 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 05:41:37.948 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 05:41:37.954 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 50093.
+1:M 14 Oct 2023 07:05:24.706 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 07:05:24.719 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 07:05:24.721 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 50135.
+1:M 14 Oct 2023 08:33:06.650 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 08:33:06.672 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 08:33:06.674 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 50177.
+1:M 14 Oct 2023 09:53:15.138 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 14 Oct 2023 09:53:15.140 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 09:53:15.158 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 09:53:15.160 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 50219.
+1:M 14 Oct 2023 10:21:10.792 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 14 Oct 2023 10:21:10.801 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 10:21:10.915 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 10:21:10.920 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 14 bytes of backlog starting from offset 50247.
+1:M 14 Oct 2023 13:10:55.313 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 14 Oct 2023 13:10:55.316 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 13:10:55.338 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 13:10:55.341 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 14 bytes of backlog starting from offset 63393.
+1:M 14 Oct 2023 13:27:27.102 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 14 Oct 2023 13:27:27.109 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 13:27:27.145 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 13:27:27.148 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 63477.
+1:M 14 Oct 2023 13:32:55.990 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 13:32:56.054 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 13:32:56.058 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 63519.
+1:M 14 Oct 2023 13:50:42.740 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 14 Oct 2023 13:50:42.746 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 13:50:42.790 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 13:50:42.792 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 63603.
+1:M 14 Oct 2023 14:00:43.719 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 14 Oct 2023 14:00:43.731 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 14:00:43.776 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 14:00:43.778 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 63645.
+1:M 14 Oct 2023 14:17:54.142 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 14:17:54.161 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 14:17:54.163 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 63715.
+1:M 14 Oct 2023 15:41:41.835 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 15:41:41.849 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 15:41:41.851 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 69217.
+1:M 14 Oct 2023 16:45:42.531 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 14 Oct 2023 16:45:42.537 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 16:45:42.570 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 16:45:42.572 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 74061.
+1:M 14 Oct 2023 16:51:10.829 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 16:51:10.854 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 16:51:10.857 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 74103.
+1:M 14 Oct 2023 18:08:15.859 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 14 Oct 2023 18:08:15.862 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 18:08:15.889 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 18:08:15.891 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 78989.
+1:M 14 Oct 2023 18:38:56.748 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 18:38:56.779 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 18:38:56.782 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 80193.
+1:M 14 Oct 2023 19:44:02.617 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 14 Oct 2023 19:44:02.630 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 19:44:02.665 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 19:44:02.667 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 85037.
+1:M 14 Oct 2023 20:00:20.987 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 20:00:21.019 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 20:00:21.024 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 85121.
+1:M 14 Oct 2023 20:29:45.671 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 14 Oct 2023 20:29:45.676 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 20:29:45.708 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 20:29:45.710 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 86325.
+1:M 14 Oct 2023 21:45:47.493 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 21:45:47.520 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 21:45:47.523 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 91169.
+1:M 14 Oct 2023 21:51:14.635 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 21:51:14.665 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 21:51:14.669 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 91211.
+1:M 14 Oct 2023 21:57:12.504 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 14 Oct 2023 21:57:12.511 * Connection with replica 172.17.0.1:7004 lost.
+1:M 14 Oct 2023 21:57:12.546 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 14 Oct 2023 21:57:12.549 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 91295.
+1:M 15 Oct 2023 01:13:49.534 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 01:13:49.579 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 01:13:49.702 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 01:13:49.705 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 106863.
+1:M 15 Oct 2023 03:46:50.861 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 03:46:50.887 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 03:46:50.891 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 118889.
+1:M 15 Oct 2023 03:52:49.545 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 03:52:49.568 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 03:52:49.570 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 118973.
+1:M 15 Oct 2023 03:58:18.043 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 03:58:18.047 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 03:58:18.073 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 03:58:18.076 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 119015.
+1:M 15 Oct 2023 04:29:13.468 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 04:29:13.477 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 04:29:13.516 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 04:29:13.519 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 120261.
+1:M 15 Oct 2023 05:44:24.718 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 05:44:24.723 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 05:44:24.760 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 05:44:24.764 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 125063.
+1:M 15 Oct 2023 05:50:22.352 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 05:50:22.360 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 05:50:22.396 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 05:50:22.398 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 125147.
+1:M 15 Oct 2023 05:55:50.232 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 05:55:50.236 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 05:55:50.263 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 05:55:50.265 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 125189.
+1:M 15 Oct 2023 10:07:29.813 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 10:07:29.820 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 10:07:29.863 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 10:07:29.866 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 145139.
+1:M 15 Oct 2023 10:13:27.361 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 10:13:27.370 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 10:13:27.417 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 10:13:27.420 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 145223.
+1:M 15 Oct 2023 10:18:55.045 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 10:18:55.069 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 10:18:55.072 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 145265.
+1:M 15 Oct 2023 10:26:21.188 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 10:26:21.195 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 10:26:21.225 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 10:26:21.227 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 145419.
+1:M 15 Oct 2023 10:30:23.521 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 10:30:23.543 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 10:30:23.546 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 145461.
+1:M 15 Oct 2023 10:36:21.865 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 10:36:21.871 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 10:36:21.903 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 10:36:21.906 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 145545.
+1:M 15 Oct 2023 10:41:49.962 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 10:41:49.970 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 10:41:50.001 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 10:41:50.003 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 145587.
+1:M 15 Oct 2023 10:45:09.784 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 10:45:09.788 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 10:45:09.813 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 10:45:09.815 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 145657.
+1:M 15 Oct 2023 13:59:41.293 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 13:59:41.309 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 13:59:41.318 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 161071.
+1:M 15 Oct 2023 14:05:40.032 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 14:05:40.035 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 14:05:40.055 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 14:05:40.057 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 161155.
+1:M 15 Oct 2023 14:11:08.361 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 14:11:08.394 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 14:11:08.400 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 161197.
+1:M 15 Oct 2023 14:17:06.904 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 14:17:06.906 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 14:17:06.929 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 14:17:06.931 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 161281.
+1:M 15 Oct 2023 14:49:04.943 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 14:49:04.960 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 14:49:04.962 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 162485.
+1:M 15 Oct 2023 16:04:08.013 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 16:04:08.032 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 16:04:08.036 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 167329.
+1:M 15 Oct 2023 17:32:33.705 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 17:32:33.720 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 17:32:33.723 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 173237.
+1:M 15 Oct 2023 17:38:31.766 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 17:38:31.778 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 17:38:31.839 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 17:38:31.841 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 173321.
+1:M 15 Oct 2023 17:44:28.960 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 17:44:28.971 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 17:44:29.027 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 17:44:29.029 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 173391.
+1:M 15 Oct 2023 17:49:57.017 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 17:49:57.035 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 17:49:57.085 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 17:49:57.088 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 173433.
+1:M 15 Oct 2023 17:55:54.465 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 17:55:54.487 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 17:55:54.489 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 173517.
+1:M 15 Oct 2023 18:01:52.423 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 18:01:52.425 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 18:01:52.445 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 18:01:52.447 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 173601.
+1:M 15 Oct 2023 18:07:19.336 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 18:07:19.345 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 18:07:19.390 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 18:07:19.393 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 14 bytes of backlog starting from offset 173629.
+1:M 15 Oct 2023 18:38:02.434 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 18:38:02.438 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 18:38:02.464 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 18:38:02.468 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 174847.
+1:M 15 Oct 2023 18:56:24.012 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 18:56:24.017 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 18:56:24.048 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 18:56:24.051 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 174931.
+1:M 15 Oct 2023 20:12:19.082 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 20:12:19.086 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 20:12:19.112 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 20:12:19.115 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 179817.
+1:M 15 Oct 2023 20:19:23.823 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 20:19:23.936 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 20:19:23.938 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 14 bytes of backlog starting from offset 180377.
+1:M 15 Oct 2023 21:35:08.042 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 21:35:08.046 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 21:35:08.073 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 21:35:08.075 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 185095.
+1:M 15 Oct 2023 22:50:20.385 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 22:50:20.388 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 22:50:20.415 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 22:50:20.417 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 189953.
+1:M 15 Oct 2023 22:56:18.540 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 22:56:18.548 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 22:56:18.593 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 22:56:18.595 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 14 bytes of backlog starting from offset 190023.
+1:M 15 Oct 2023 23:02:17.787 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 15 Oct 2023 23:02:17.796 * Connection with replica 172.17.0.1:7004 lost.
+1:M 15 Oct 2023 23:02:17.835 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 15 Oct 2023 23:02:17.837 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 190107.
+1:M 16 Oct 2023 00:51:11.671 # Cluster state changed: fail
+1:M 16 Oct 2023 00:52:00.466 * Connection with replica 172.17.0.1:7004 lost.
+1:M 16 Oct 2023 02:00:34.677 * Replication backlog freed after 3600 seconds without connected replicas.
+1:signal-handler (1699260567) Received SIGTERM scheduling shutdown...
+1:M 06 Nov 2023 08:49:27.125 * User requested shutdown...
+1:M 06 Nov 2023 08:49:27.168 * Calling fsync() on the AOF file.
+1:M 06 Nov 2023 08:49:27.206 * Saving the final RDB snapshot before exiting.
+1:M 06 Nov 2023 08:49:27.308 * DB saved on disk
+1:M 06 Nov 2023 08:49:27.325 # Redis is now ready to exit, bye bye...
+1:C 06 Nov 2023 08:49:31.599 # WARNING: Changing databases number from 16 to 1 since we are in cluster mode
+1:C 06 Nov 2023 08:49:31.616 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 06 Nov 2023 08:49:31.638 * Redis version=7.2.1, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 06 Nov 2023 08:49:31.652 * Configuration loaded
+1:M 06 Nov 2023 08:49:31.667 * monotonic clock: POSIX clock_gettime
+1:M 06 Nov 2023 08:49:31.673 * Running mode=cluster, port=7003.
+1:M 06 Nov 2023 08:49:31.696 * Node configuration loaded, I'm fc361c1007819934704fb8de3f33369293fe94f9
+1:M 06 Nov 2023 08:49:31.705 * Server initialized
+1:M 06 Nov 2023 08:49:31.727 * Reading RDB base file on AOF loading...
+1:M 06 Nov 2023 08:49:31.732 * Loading RDB produced by version 7.2.1
+1:M 06 Nov 2023 08:49:31.736 * RDB age 2312057 seconds
+1:M 06 Nov 2023 08:49:31.741 * RDB memory usage when created 1.54 Mb
+1:M 06 Nov 2023 08:49:31.746 * RDB is base AOF
+1:M 06 Nov 2023 08:49:31.750 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 06 Nov 2023 08:49:31.759 * DB loaded from base file appendonly.aof.1.base.rdb: 0.035 seconds
+1:M 06 Nov 2023 08:49:31.765 * DB loaded from append only file: 0.046 seconds
+1:M 06 Nov 2023 08:49:31.773 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 06 Nov 2023 08:49:31.777 * Ready to accept connections tcp
+1:M 06 Nov 2023 08:49:33.820 * Cluster state changed: ok
+1:M 06 Nov 2023 08:49:38.764 # Cluster state changed: fail
+1:C 07 Nov 2023 02:11:27.596 # WARNING: Changing databases number from 16 to 1 since we are in cluster mode
+1:C 07 Nov 2023 02:11:27.600 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 07 Nov 2023 02:11:27.603 * Redis version=7.2.1, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 07 Nov 2023 02:11:27.605 * Configuration loaded
+1:M 07 Nov 2023 02:11:27.608 * monotonic clock: POSIX clock_gettime
+1:M 07 Nov 2023 02:11:27.610 * Running mode=cluster, port=7003.
+1:M 07 Nov 2023 02:11:27.617 * Node configuration loaded, I'm fc361c1007819934704fb8de3f33369293fe94f9
+1:M 07 Nov 2023 02:11:27.619 * Server initialized
+1:M 07 Nov 2023 02:11:27.625 * Reading RDB base file on AOF loading...
+1:M 07 Nov 2023 02:11:27.626 * Loading RDB produced by version 7.2.1
+1:M 07 Nov 2023 02:11:27.629 * RDB age 2374573 seconds
+1:M 07 Nov 2023 02:11:27.631 * RDB memory usage when created 1.54 Mb
+1:M 07 Nov 2023 02:11:27.634 * RDB is base AOF
+1:M 07 Nov 2023 02:11:27.636 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 07 Nov 2023 02:11:27.638 * DB loaded from base file appendonly.aof.1.base.rdb: 0.015 seconds
+1:M 07 Nov 2023 02:11:27.641 * DB loaded from append only file: 0.018 seconds
+1:M 07 Nov 2023 02:11:27.644 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 07 Nov 2023 02:11:27.645 * Ready to accept connections tcp
+1:M 07 Nov 2023 02:11:29.702 * Cluster state changed: ok
+1:M 07 Nov 2023 02:11:35.274 # Cluster state changed: fail
+1:C 07 Nov 2023 02:18:19.073 # WARNING: Changing databases number from 16 to 1 since we are in cluster mode
+1:C 07 Nov 2023 02:18:19.079 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 07 Nov 2023 02:18:19.083 * Redis version=7.2.1, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 07 Nov 2023 02:18:19.089 * Configuration loaded
+1:M 07 Nov 2023 02:18:19.093 * monotonic clock: POSIX clock_gettime
+1:M 07 Nov 2023 02:18:19.097 * Running mode=cluster, port=7003.
+1:M 07 Nov 2023 02:18:19.103 * Node configuration loaded, I'm fc361c1007819934704fb8de3f33369293fe94f9
+1:M 07 Nov 2023 02:18:19.107 * Server initialized
+1:M 07 Nov 2023 02:18:19.120 * Reading RDB base file on AOF loading...
+1:M 07 Nov 2023 02:18:19.122 * Loading RDB produced by version 7.2.1
+1:M 07 Nov 2023 02:18:19.124 * RDB age 2374985 seconds
+1:M 07 Nov 2023 02:18:19.126 * RDB memory usage when created 1.54 Mb
+1:M 07 Nov 2023 02:18:19.129 * RDB is base AOF
+1:M 07 Nov 2023 02:18:19.130 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 07 Nov 2023 02:18:19.133 * DB loaded from base file appendonly.aof.1.base.rdb: 0.015 seconds
+1:M 07 Nov 2023 02:18:19.136 * DB loaded from append only file: 0.020 seconds
+1:M 07 Nov 2023 02:18:19.138 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 07 Nov 2023 02:18:19.140 * Ready to accept connections tcp
+1:M 07 Nov 2023 02:18:21.223 * Cluster state changed: ok
+1:M 07 Nov 2023 02:18:26.654 # Cluster state changed: fail
+1:C 07 Nov 2023 02:22:21.218 # WARNING: Changing databases number from 16 to 1 since we are in cluster mode
+1:C 07 Nov 2023 02:22:21.223 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 07 Nov 2023 02:22:21.227 * Redis version=7.2.1, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 07 Nov 2023 02:22:21.230 * Configuration loaded
+1:M 07 Nov 2023 02:22:21.235 * monotonic clock: POSIX clock_gettime
+1:M 07 Nov 2023 02:22:21.239 * Running mode=cluster, port=7003.
+1:M 07 Nov 2023 02:22:21.250 * Node configuration loaded, I'm fc361c1007819934704fb8de3f33369293fe94f9
+1:M 07 Nov 2023 02:22:21.254 * Server initialized
+1:M 07 Nov 2023 02:22:21.269 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+1:M 07 Nov 2023 02:22:21.278 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 07 Nov 2023 02:22:21.280 * Ready to accept connections tcp
+1:M 07 Nov 2023 02:22:23.357 * Cluster state changed: ok
+1:M 07 Nov 2023 02:22:28.803 # Cluster state changed: fail
+1:C 07 Nov 2023 02:36:57.914 # WARNING: Changing databases number from 16 to 1 since we are in cluster mode
+1:C 07 Nov 2023 02:36:57.922 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 07 Nov 2023 02:36:57.926 * Redis version=7.2.1, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 07 Nov 2023 02:36:57.930 * Configuration loaded
+1:M 07 Nov 2023 02:36:57.935 * monotonic clock: POSIX clock_gettime
+1:M 07 Nov 2023 02:36:57.938 * Running mode=cluster, port=7003.
+1:M 07 Nov 2023 02:36:57.943 * No cluster configuration found, I'm 00cb1aeef41c41d6e1dbe824e02c3715659a0021
+1:M 07 Nov 2023 02:36:57.950 * Server initialized
+1:M 07 Nov 2023 02:36:57.960 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+1:M 07 Nov 2023 02:36:57.968 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 07 Nov 2023 02:36:57.970 * Ready to accept connections tcp
+1:M 07 Nov 2023 02:37:27.014 * configEpoch set to 3 via CLUSTER SET-CONFIG-EPOCH
+1:M 07 Nov 2023 02:37:29.119 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 07 Nov 2023 02:37:29.122 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '8b8ac4a1d799c5b8eb6111d9a195202f7ee15d48', my replication IDs are '51c5805388d1c26e84afef9ea6242595f2e56367' and '0000000000000000000000000000000000000000')
+1:M 07 Nov 2023 02:37:29.125 * Replication backlog created, my new replication IDs are '1971bc5f35981cd4c58277b41fbdc733e1d08003' and '0000000000000000000000000000000000000000'
+1:M 07 Nov 2023 02:37:29.128 * Delay next BGSAVE for diskless SYNC
+1:M 07 Nov 2023 02:37:32.014 * Cluster state changed: ok
+1:M 07 Nov 2023 02:37:34.876 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 07 Nov 2023 02:37:34.882 * Background RDB transfer started by pid 21
+21:C 07 Nov 2023 02:37:34.885 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 07 Nov 2023 02:37:34.888 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 07 Nov 2023 02:37:34.926 * Background RDB transfer terminated with success
+1:M 07 Nov 2023 02:37:34.929 * Streamed RDB transfer with replica 172.17.0.1:7004 succeeded (socket). Waiting for REPLCONF ACK from replica to enable streaming
+1:M 07 Nov 2023 02:37:34.931 * Synchronization with replica 172.17.0.1:7004 succeeded
+1:M 07 Nov 2023 03:58:32.283 * Connection with replica 172.17.0.1:7004 lost.
+1:M 07 Nov 2023 03:58:32.300 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 07 Nov 2023 03:58:32.306 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 5377.
+1:M 07 Nov 2023 04:29:10.302 * Connection with replica 172.17.0.1:7004 lost.
+1:M 07 Nov 2023 04:29:10.320 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 07 Nov 2023 04:29:10.323 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 7687.
+1:M 07 Nov 2023 04:33:36.606 * Connection with replica 172.17.0.1:7004 lost.
+1:M 07 Nov 2023 04:33:36.618 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 07 Nov 2023 04:33:36.620 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 7771.
+1:M 07 Nov 2023 04:39:04.715 * Connection with replica 172.17.0.1:7004 lost.
+1:M 07 Nov 2023 04:39:04.728 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 07 Nov 2023 04:39:04.731 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 7813.
+1:M 07 Nov 2023 04:44:55.226 * Connection with replica 172.17.0.1:7004 lost.
+1:M 07 Nov 2023 04:44:55.246 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 07 Nov 2023 04:44:55.249 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 7939.
+1:M 07 Nov 2023 05:15:46.289 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 07 Nov 2023 05:15:46.295 * Connection with replica 172.17.0.1:7004 lost.
+1:M 07 Nov 2023 05:15:46.321 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 07 Nov 2023 05:15:46.323 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 9157.
+1:M 07 Nov 2023 05:31:49.237 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 07 Nov 2023 05:31:49.241 * Connection with replica 172.17.0.1:7004 lost.
+1:M 07 Nov 2023 05:31:49.266 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 07 Nov 2023 05:31:49.269 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 9227.
+1:M 07 Nov 2023 07:00:28.482 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 07 Nov 2023 07:00:28.489 * Connection with replica 172.17.0.1:7004 lost.
+1:M 07 Nov 2023 07:00:28.524 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 07 Nov 2023 07:00:28.526 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 15191.
+1:M 07 Nov 2023 07:43:28.065 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 07 Nov 2023 07:43:28.070 * Connection with replica 172.17.0.1:7004 lost.
+1:M 07 Nov 2023 07:43:28.105 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 07 Nov 2023 07:43:28.108 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 18271.
+1:M 07 Nov 2023 07:48:56.883 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7004
+1:M 07 Nov 2023 07:48:56.887 * Connection with replica 172.17.0.1:7004 lost.
+1:M 07 Nov 2023 07:48:56.922 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 07 Nov 2023 07:48:56.925 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 14 bytes of backlog starting from offset 18299.
+1:M 07 Nov 2023 07:50:50.639 * Connection with replica 172.17.0.1:7004 lost.
+1:M 07 Nov 2023 07:50:50.659 * Replica 172.17.0.1:7004 asks for synchronization
+1:M 07 Nov 2023 07:50:50.662 * Partial resynchronization request from 172.17.0.1:7004 accepted. Sending 0 bytes of backlog starting from offset 18383.
+1:M 07 Nov 2023 08:09:43.780 * 1 changes in 3600 seconds. Saving...
+1:M 07 Nov 2023 08:09:43.788 * Background saving started by pid 23
+23:C 07 Nov 2023 08:09:43.814 * DB saved on disk
+23:C 07 Nov 2023 08:09:43.818 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 07 Nov 2023 08:09:43.900 * Background saving terminated with success
