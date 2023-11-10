@@ -1407,3 +1407,37 @@
 29:C 10 Nov 2023 08:28:21.112 * DB saved on disk
 29:C 10 Nov 2023 08:28:21.117 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
 1:M 10 Nov 2023 08:28:21.206 * Background saving terminated with success
+1:M 10 Nov 2023 09:28:22.039 * 1 changes in 3600 seconds. Saving...
+1:M 10 Nov 2023 09:28:22.054 * Background saving started by pid 30
+30:C 10 Nov 2023 09:28:22.081 * DB saved on disk
+30:C 10 Nov 2023 09:28:22.092 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 10 Nov 2023 09:28:22.166 * Background saving terminated with success
+1:M 10 Nov 2023 09:45:22.011 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7002
+1:M 10 Nov 2023 09:45:22.015 * Connection with replica 172.17.0.1:7002 lost.
+1:M 10 Nov 2023 09:45:22.038 * Replica 172.17.0.1:7002 asks for synchronization
+1:M 10 Nov 2023 09:45:22.040 * Partial resynchronization request from 172.17.0.1:7002 accepted. Sending 0 bytes of backlog starting from offset 183224.
+1:M 10 Nov 2023 09:50:49.819 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7002
+1:M 10 Nov 2023 09:50:49.822 * Connection with replica 172.17.0.1:7002 lost.
+1:M 10 Nov 2023 09:50:49.841 * Replica 172.17.0.1:7002 asks for synchronization
+1:M 10 Nov 2023 09:50:49.843 * Partial resynchronization request from 172.17.0.1:7002 accepted. Sending 0 bytes of backlog starting from offset 183266.
+1:M 10 Nov 2023 10:09:46.669 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7002
+1:M 10 Nov 2023 10:09:46.674 * Connection with replica 172.17.0.1:7002 lost.
+1:M 10 Nov 2023 10:09:46.715 * Replica 172.17.0.1:7002 asks for synchronization
+1:M 10 Nov 2023 10:09:46.720 * Partial resynchronization request from 172.17.0.1:7002 accepted. Sending 0 bytes of backlog starting from offset 184666.
+1:M 10 Nov 2023 10:35:07.549 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7002
+1:M 10 Nov 2023 10:35:07.565 * Connection with replica 172.17.0.1:7002 lost.
+1:M 10 Nov 2023 10:35:07.615 * Replica 172.17.0.1:7002 asks for synchronization
+1:M 10 Nov 2023 10:35:07.621 * Partial resynchronization request from 172.17.0.1:7002 accepted. Sending 0 bytes of backlog starting from offset 185226.
+1:M 10 Nov 2023 10:52:36.556 * Connection with replica 172.17.0.1:7002 lost.
+1:M 10 Nov 2023 10:52:36.572 * Replica 172.17.0.1:7002 asks for synchronization
+1:M 10 Nov 2023 10:52:36.575 * Partial resynchronization request from 172.17.0.1:7002 accepted. Sending 0 bytes of backlog starting from offset 185394.
+1:M 10 Nov 2023 12:22:18.894 * 1 changes in 3600 seconds. Saving...
+1:M 10 Nov 2023 12:22:18.943 * Background saving started by pid 31
+31:C 10 Nov 2023 12:22:18.954 * DB saved on disk
+31:C 10 Nov 2023 12:22:18.958 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 10 Nov 2023 12:22:19.049 * Background saving terminated with success
+1:M 10 Nov 2023 13:22:20.088 * 1 changes in 3600 seconds. Saving...
+1:M 10 Nov 2023 13:22:20.102 * Background saving started by pid 32
+32:C 10 Nov 2023 13:22:20.121 * DB saved on disk
+32:C 10 Nov 2023 13:22:20.128 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 10 Nov 2023 13:22:20.207 * Background saving terminated with success

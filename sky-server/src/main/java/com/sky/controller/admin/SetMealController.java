@@ -13,10 +13,12 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.models.auth.In;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisAccessor;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Set;
 
 @RestController("adminSetMealController")
 @RequestMapping("/admin/setmeal")
@@ -27,6 +29,8 @@ public class SetMealController {
     private JwtProperties jwtProperties;
     @Autowired
     private SetMealService setMealService;
+    @Autowired
+    private RedisTemplate redisTemplate;
 
 
     @PostMapping
@@ -34,6 +38,8 @@ public class SetMealController {
     public Result save(@RequestBody SetmealDTO setmealDTO){
         log.info("新增套餐接口，参数为:{}",setmealDTO);
         setMealService.save(setmealDTO);
+        String key = "setmeal_category_"+setmealDTO.getCategoryId();
+        cleanCache(key);
         return Result.success();
     }
 
@@ -50,6 +56,7 @@ public class SetMealController {
     public Result delete(@RequestParam List<Long> ids){
         log.info("批量套餐删除接口，参数为:{}",ids);
         setMealService.deleteBatch(ids);
+        cleanCache("setmeal_category*");
         return Result.success();
     }
 
@@ -65,6 +72,7 @@ public class SetMealController {
     @ApiOperation("修改套餐")
     public Result update(@RequestBody SetmealDTO setmealDTO){
         setMealService.update(setmealDTO);
+        cleanCache("setmeal_category*");
         return Result.success();
     }
 
@@ -72,6 +80,12 @@ public class SetMealController {
     @ApiOperation("套餐起售停售")
     public Result startOrStop(@PathVariable Integer status,Long id){
         setMealService.startOrStop(status,id);
+        cleanCache("setmeal_category*");
         return Result.success();
+    }
+
+    private void cleanCache(String pattern){
+        Set keys = redisTemplate.keys(pattern);
+        redisTemplate.delete(keys);
     }
 }

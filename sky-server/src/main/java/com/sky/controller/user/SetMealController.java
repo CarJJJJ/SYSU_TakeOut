@@ -10,6 +10,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,6 +26,8 @@ import java.util.Set;
 public class SetMealController {
     @Autowired
     private SetMealService setMealService;
+    @Autowired
+    private RedisTemplate redisTemplate;
     /**
      * 条件查询
      *
@@ -34,10 +37,17 @@ public class SetMealController {
     @GetMapping("/list")
     @ApiOperation("根据分类id查询套餐")
     public Result<List<Setmeal>> list(Long categoryId){
+        log.info("根据分类id查询套餐:{}",categoryId);
+        String key = "setmeal_category_:" + categoryId;
+        List<Setmeal> setmeals = (List<Setmeal>) redisTemplate.opsForValue().get(key);
+        if(setmeals!=null&&setmeals.size()>0){
+            return Result.success(setmeals);
+        }
         Setmeal setmeal = new Setmeal();
         setmeal.setCategoryId(categoryId);
         setmeal.setStatus(StatusConstant.ENABLE);
         List<Setmeal> list = setMealService.list(setmeal);
+        redisTemplate.opsForValue().set(key,list);
         return Result.success(list);
     }
 

@@ -1036,3 +1036,64 @@
 28:C 10 Nov 2023 08:33:25.071 * DB saved on disk
 28:C 10 Nov 2023 08:33:25.079 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
 1:S 10 Nov 2023 08:33:25.149 * Background saving terminated with success
+1:S 10 Nov 2023 09:33:26.083 * 1 changes in 3600 seconds. Saving...
+1:S 10 Nov 2023 09:33:26.094 * Background saving started by pid 29
+29:C 10 Nov 2023 09:33:26.114 * DB saved on disk
+29:C 10 Nov 2023 09:33:26.130 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:S 10 Nov 2023 09:33:26.200 * Background saving terminated with success
+1:S 10 Nov 2023 09:45:22.117 * Connection with master lost.
+1:S 10 Nov 2023 09:45:22.119 * Caching the disconnected master state.
+1:S 10 Nov 2023 09:45:22.121 * Reconnecting to MASTER 192.168.1.7:7004
+1:S 10 Nov 2023 09:45:22.123 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 09:45:22.125 * Non blocking connect for SYNC fired the event.
+1:S 10 Nov 2023 09:45:22.127 * Master replied to PING, replication can continue...
+1:S 10 Nov 2023 09:45:22.130 * Trying a partial resynchronization (request a0b028fbca18ee6b8571a14e1d42fdf7b88537fd:173464).
+1:S 10 Nov 2023 09:45:22.135 * Successful partial resynchronization with master.
+1:S 10 Nov 2023 09:45:22.137 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 10 Nov 2023 09:50:49.936 * Connection with master lost.
+1:S 10 Nov 2023 09:50:49.938 * Caching the disconnected master state.
+1:S 10 Nov 2023 09:50:49.940 * Reconnecting to MASTER 192.168.1.7:7004
+1:S 10 Nov 2023 09:50:49.943 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 09:50:49.945 * Non blocking connect for SYNC fired the event.
+1:S 10 Nov 2023 09:50:49.948 * Master replied to PING, replication can continue...
+1:S 10 Nov 2023 09:50:49.951 * Trying a partial resynchronization (request a0b028fbca18ee6b8571a14e1d42fdf7b88537fd:173492).
+1:S 10 Nov 2023 09:50:49.956 * Successful partial resynchronization with master.
+1:S 10 Nov 2023 09:50:49.958 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 10 Nov 2023 10:09:46.755 * Connection with master lost.
+1:S 10 Nov 2023 10:09:46.759 * Caching the disconnected master state.
+1:S 10 Nov 2023 10:09:46.762 * Reconnecting to MASTER 192.168.1.7:7004
+1:S 10 Nov 2023 10:09:46.765 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 10:09:46.767 * Non blocking connect for SYNC fired the event.
+1:S 10 Nov 2023 10:09:46.770 * Master replied to PING, replication can continue...
+1:S 10 Nov 2023 10:09:46.774 * Trying a partial resynchronization (request a0b028fbca18ee6b8571a14e1d42fdf7b88537fd:174892).
+1:S 10 Nov 2023 10:09:46.780 * Successful partial resynchronization with master.
+1:S 10 Nov 2023 10:09:46.783 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 10 Nov 2023 10:35:07.640 * Connection with master lost.
+1:S 10 Nov 2023 10:35:07.645 * Caching the disconnected master state.
+1:S 10 Nov 2023 10:35:07.650 * Reconnecting to MASTER 192.168.1.7:7004
+1:S 10 Nov 2023 10:35:07.655 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 10:35:07.659 * Non blocking connect for SYNC fired the event.
+1:S 10 Nov 2023 10:35:07.667 * Master replied to PING, replication can continue...
+1:S 10 Nov 2023 10:35:07.673 * Trying a partial resynchronization (request a0b028fbca18ee6b8571a14e1d42fdf7b88537fd:175452).
+1:S 10 Nov 2023 10:35:07.690 * Successful partial resynchronization with master.
+1:S 10 Nov 2023 10:35:07.697 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 10 Nov 2023 10:52:36.545 # MASTER timeout: no data nor PING received...
+1:S 10 Nov 2023 10:52:36.550 * Connection with master lost.
+1:S 10 Nov 2023 10:52:36.554 * Caching the disconnected master state.
+1:S 10 Nov 2023 10:52:36.557 * Reconnecting to MASTER 192.168.1.7:7004
+1:S 10 Nov 2023 10:52:36.560 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 10:52:36.563 * Non blocking connect for SYNC fired the event.
+1:S 10 Nov 2023 10:52:36.566 * Master replied to PING, replication can continue...
+1:S 10 Nov 2023 10:52:36.569 * Trying a partial resynchronization (request a0b028fbca18ee6b8571a14e1d42fdf7b88537fd:175620).
+1:S 10 Nov 2023 10:52:36.574 * Successful partial resynchronization with master.
+1:S 10 Nov 2023 10:52:36.576 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 10 Nov 2023 12:22:19.716 * 1 changes in 3600 seconds. Saving...
+1:S 10 Nov 2023 12:22:19.731 * Background saving started by pid 30
+30:C 10 Nov 2023 12:22:19.743 * DB saved on disk
+30:C 10 Nov 2023 12:22:19.748 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:S 10 Nov 2023 12:22:19.840 * Background saving terminated with success
+1:S 10 Nov 2023 13:22:20.090 * 1 changes in 3600 seconds. Saving...
+1:S 10 Nov 2023 13:22:20.105 * Background saving started by pid 31
+31:C 10 Nov 2023 13:22:20.121 * DB saved on disk
+31:C 10 Nov 2023 13:22:20.127 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:S 10 Nov 2023 13:22:20.212 * Background saving terminated with success
