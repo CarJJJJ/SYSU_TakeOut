@@ -11,6 +11,7 @@ import com.sky.mapper.ShoppingCartMapper;
 import com.sky.service.ShoppingCartService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -54,6 +55,31 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
             shoppingCart.setNumber(1);
             shoppingCart.setCreateTime(LocalDateTime.now());
             shoppingCartMapper.insert(shoppingCart);
+        }
+    }
+
+    public List<ShoppingCart> showShoppingCart(){
+        return shoppingCartMapper.list(ShoppingCart.builder().userId(BaseContext.getCurrentId()).build());
+    }
+
+    public void cleanShoppingCart(){
+        shoppingCartMapper.deleteByUserId(BaseContext.getCurrentId());
+    }
+
+    public void sub(ShoppingCartDTO shoppingCartDTO){
+        ShoppingCart shoppingCart = new ShoppingCart();
+        BeanUtils.copyProperties(shoppingCartDTO,shoppingCart);
+        shoppingCart.setUserId(BaseContext.getCurrentId());
+        List<ShoppingCart> shoppingCartList = shoppingCartMapper.list(shoppingCart);
+        if(shoppingCartList!=null&&shoppingCartList.size()>0){
+            shoppingCart = shoppingCartList.get(0);
+            int number = shoppingCart.getNumber()-1;
+            shoppingCart.setNumber(number);
+        }
+        int number = shoppingCart.getNumber();
+        shoppingCartMapper.updateNumberById(shoppingCart);
+        if(number == 0){
+            shoppingCartMapper.deleteByUserId(BaseContext.getCurrentId());
         }
     }
 }
