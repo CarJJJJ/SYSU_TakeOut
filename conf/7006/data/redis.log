@@ -173,3 +173,1237 @@
 1:S 07 Nov 2023 07:50:52.628 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:18682).
 1:S 07 Nov 2023 07:50:52.638 * Successful partial resynchronization with master.
 1:S 07 Nov 2023 07:50:52.642 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 07 Nov 2023 09:59:02.385 * 1 changes in 3600 seconds. Saving...
+1:S 07 Nov 2023 09:59:02.396 * Background saving started by pid 25
+25:C 07 Nov 2023 09:59:02.410 * DB saved on disk
+25:C 07 Nov 2023 09:59:02.413 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:S 07 Nov 2023 09:59:02.501 * Background saving terminated with success
+1:S 07 Nov 2023 10:08:50.493 * Connection with master lost.
+1:S 07 Nov 2023 10:08:50.496 * Caching the disconnected master state.
+1:S 07 Nov 2023 10:08:50.500 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 07 Nov 2023 10:08:50.504 * MASTER <-> REPLICA sync started
+1:S 07 Nov 2023 10:08:50.507 * Non blocking connect for SYNC fired the event.
+1:S 07 Nov 2023 10:08:50.510 * Master replied to PING, replication can continue...
+1:S 07 Nov 2023 10:08:50.513 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:29945).
+1:S 07 Nov 2023 10:08:50.519 * Successful partial resynchronization with master.
+1:S 07 Nov 2023 10:08:50.521 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 07 Nov 2023 10:14:47.790 # MASTER timeout: no data nor PING received...
+1:S 07 Nov 2023 10:14:47.794 * Connection with master lost.
+1:S 07 Nov 2023 10:14:47.796 * Caching the disconnected master state.
+1:S 07 Nov 2023 10:14:47.797 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 07 Nov 2023 10:14:47.801 * MASTER <-> REPLICA sync started
+1:S 07 Nov 2023 10:14:47.803 * Non blocking connect for SYNC fired the event.
+1:S 07 Nov 2023 10:14:47.806 * Master replied to PING, replication can continue...
+1:S 07 Nov 2023 10:14:47.810 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:30029).
+1:S 07 Nov 2023 10:14:47.817 * Successful partial resynchronization with master.
+1:S 07 Nov 2023 10:14:47.820 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 07 Nov 2023 10:18:02.051 * Connection with master lost.
+1:S 07 Nov 2023 10:18:02.054 * Caching the disconnected master state.
+1:S 07 Nov 2023 10:18:02.058 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 07 Nov 2023 10:18:02.063 * MASTER <-> REPLICA sync started
+1:S 07 Nov 2023 10:18:02.067 * Non blocking connect for SYNC fired the event.
+1:S 07 Nov 2023 10:18:02.072 * Master replied to PING, replication can continue...
+1:S 07 Nov 2023 10:18:02.077 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:30113).
+1:S 07 Nov 2023 10:18:02.083 * Successful partial resynchronization with master.
+1:S 07 Nov 2023 10:18:02.085 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 07 Nov 2023 10:23:30.269 * Connection with master lost.
+1:S 07 Nov 2023 10:23:30.273 * Caching the disconnected master state.
+1:S 07 Nov 2023 10:23:30.276 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 07 Nov 2023 10:23:30.280 * MASTER <-> REPLICA sync started
+1:S 07 Nov 2023 10:23:30.283 * Non blocking connect for SYNC fired the event.
+1:S 07 Nov 2023 10:23:30.287 * Master replied to PING, replication can continue...
+1:S 07 Nov 2023 10:23:30.291 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:30155).
+1:S 07 Nov 2023 10:23:30.297 * Successful partial resynchronization with master.
+1:S 07 Nov 2023 10:23:30.299 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 07 Nov 2023 10:59:03.088 * 1 changes in 3600 seconds. Saving...
+1:S 07 Nov 2023 10:59:03.100 * Background saving started by pid 26
+26:C 07 Nov 2023 10:59:03.117 * DB saved on disk
+26:C 07 Nov 2023 10:59:03.120 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:S 07 Nov 2023 10:59:03.209 * Background saving terminated with success
+1:S 07 Nov 2023 15:12:26.842 * Connection with master lost.
+1:S 07 Nov 2023 15:12:26.845 * Caching the disconnected master state.
+1:S 07 Nov 2023 15:12:26.848 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 07 Nov 2023 15:12:26.850 * MASTER <-> REPLICA sync started
+1:S 07 Nov 2023 15:12:26.852 * Non blocking connect for SYNC fired the event.
+1:S 07 Nov 2023 15:12:26.856 * Master replied to PING, replication can continue...
+1:S 07 Nov 2023 15:12:26.859 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:53101).
+1:S 07 Nov 2023 15:12:26.864 * Successful partial resynchronization with master.
+1:S 07 Nov 2023 15:12:26.867 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 07 Nov 2023 15:28:35.088 * Connection with master lost.
+1:S 07 Nov 2023 15:28:35.095 * Caching the disconnected master state.
+1:S 07 Nov 2023 15:28:35.101 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 07 Nov 2023 15:28:35.135 * MASTER <-> REPLICA sync started
+1:S 07 Nov 2023 15:28:35.142 * Non blocking connect for SYNC fired the event.
+1:S 07 Nov 2023 15:28:35.157 * Master replied to PING, replication can continue...
+1:S 07 Nov 2023 15:28:35.165 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:53171).
+1:S 07 Nov 2023 15:28:35.172 * Successful partial resynchronization with master.
+1:S 07 Nov 2023 15:28:35.174 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 07 Nov 2023 16:36:04.653 # MASTER timeout: no data nor PING received...
+1:S 07 Nov 2023 16:36:04.659 * Connection with master lost.
+1:S 07 Nov 2023 16:36:04.664 * Caching the disconnected master state.
+1:S 07 Nov 2023 16:36:04.670 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 07 Nov 2023 16:36:04.677 * MASTER <-> REPLICA sync started
+1:S 07 Nov 2023 16:36:04.681 * Non blocking connect for SYNC fired the event.
+1:S 07 Nov 2023 16:36:04.690 * Master replied to PING, replication can continue...
+1:S 07 Nov 2023 16:36:04.696 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:58183).
+1:S 07 Nov 2023 16:36:04.704 * Successful partial resynchronization with master.
+1:S 07 Nov 2023 16:36:04.707 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 07 Nov 2023 16:39:31.485 * Connection with master lost.
+1:S 07 Nov 2023 16:39:31.497 * Caching the disconnected master state.
+1:S 07 Nov 2023 16:39:31.500 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 07 Nov 2023 16:39:31.503 * MASTER <-> REPLICA sync started
+1:S 07 Nov 2023 16:39:31.514 * Non blocking connect for SYNC fired the event.
+1:S 07 Nov 2023 16:39:31.519 * Master replied to PING, replication can continue...
+1:S 07 Nov 2023 16:39:31.525 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:58225).
+1:S 07 Nov 2023 16:39:31.542 * Successful partial resynchronization with master.
+1:S 07 Nov 2023 16:39:31.551 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 07 Nov 2023 16:55:54.189 * Connection with master lost.
+1:S 07 Nov 2023 16:55:54.196 * Caching the disconnected master state.
+1:S 07 Nov 2023 16:55:54.204 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 07 Nov 2023 16:55:54.211 * MASTER <-> REPLICA sync started
+1:S 07 Nov 2023 16:55:54.216 * Non blocking connect for SYNC fired the event.
+1:S 07 Nov 2023 16:55:54.222 * Master replied to PING, replication can continue...
+1:S 07 Nov 2023 16:55:54.227 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:58309).
+1:S 07 Nov 2023 16:55:54.235 * Successful partial resynchronization with master.
+1:S 07 Nov 2023 16:55:54.237 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 07 Nov 2023 18:12:24.680 * Connection with master lost.
+1:S 07 Nov 2023 18:12:24.685 * Caching the disconnected master state.
+1:S 07 Nov 2023 18:12:24.692 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 07 Nov 2023 18:12:24.701 * MASTER <-> REPLICA sync started
+1:S 07 Nov 2023 18:12:24.708 * Non blocking connect for SYNC fired the event.
+1:S 07 Nov 2023 18:12:24.716 * Master replied to PING, replication can continue...
+1:S 07 Nov 2023 18:12:24.724 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:63195).
+1:S 07 Nov 2023 18:12:24.736 * Successful partial resynchronization with master.
+1:S 07 Nov 2023 18:12:24.739 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 07 Nov 2023 18:29:19.658 * Connection with master lost.
+1:S 07 Nov 2023 18:29:19.665 * Caching the disconnected master state.
+1:S 07 Nov 2023 18:29:19.670 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 07 Nov 2023 18:29:19.678 * MASTER <-> REPLICA sync started
+1:S 07 Nov 2023 18:29:19.683 * Non blocking connect for SYNC fired the event.
+1:S 07 Nov 2023 18:29:19.689 * Master replied to PING, replication can continue...
+1:S 07 Nov 2023 18:29:19.694 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:63237).
+1:S 07 Nov 2023 18:29:19.701 * Successful partial resynchronization with master.
+1:S 07 Nov 2023 18:29:19.704 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 07 Nov 2023 19:10:35.734 * Connection with master lost.
+1:S 07 Nov 2023 19:10:35.744 * Caching the disconnected master state.
+1:S 07 Nov 2023 19:10:35.751 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 07 Nov 2023 19:10:35.760 * MASTER <-> REPLICA sync started
+1:S 07 Nov 2023 19:10:35.765 * Non blocking connect for SYNC fired the event.
+1:S 07 Nov 2023 19:10:35.774 * Master replied to PING, replication can continue...
+1:S 07 Nov 2023 19:10:35.780 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:66569).
+1:S 07 Nov 2023 19:10:35.791 * Successful partial resynchronization with master.
+1:S 07 Nov 2023 19:10:35.795 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 07 Nov 2023 19:46:16.563 * Connection with master lost.
+1:S 07 Nov 2023 19:46:16.568 * Caching the disconnected master state.
+1:S 07 Nov 2023 19:46:16.572 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 07 Nov 2023 19:46:16.576 * MASTER <-> REPLICA sync started
+1:S 07 Nov 2023 19:46:16.580 * Non blocking connect for SYNC fired the event.
+1:S 07 Nov 2023 19:46:16.585 * Master replied to PING, replication can continue...
+1:S 07 Nov 2023 19:46:16.590 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:68137).
+1:S 07 Nov 2023 19:46:16.597 * Successful partial resynchronization with master.
+1:S 07 Nov 2023 19:46:16.599 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 07 Nov 2023 20:01:56.928 * Connection with master lost.
+1:S 07 Nov 2023 20:01:56.932 * Caching the disconnected master state.
+1:S 07 Nov 2023 20:01:56.936 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 07 Nov 2023 20:01:56.939 * MASTER <-> REPLICA sync started
+1:S 07 Nov 2023 20:01:56.942 * Non blocking connect for SYNC fired the event.
+1:S 07 Nov 2023 20:01:56.947 * Master replied to PING, replication can continue...
+1:S 07 Nov 2023 20:01:56.951 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:68165).
+1:S 07 Nov 2023 20:01:56.957 * Successful partial resynchronization with master.
+1:S 07 Nov 2023 20:01:56.960 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 07 Nov 2023 21:18:00.523 * Connection with master lost.
+1:S 07 Nov 2023 21:18:00.525 * Caching the disconnected master state.
+1:S 07 Nov 2023 21:18:00.527 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 07 Nov 2023 21:18:00.529 * MASTER <-> REPLICA sync started
+1:S 07 Nov 2023 21:18:00.531 * Non blocking connect for SYNC fired the event.
+1:S 07 Nov 2023 21:18:00.533 * Master replied to PING, replication can continue...
+1:S 07 Nov 2023 21:18:00.536 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:73065).
+1:S 07 Nov 2023 21:18:00.540 * Successful partial resynchronization with master.
+1:S 07 Nov 2023 21:18:00.542 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 07 Nov 2023 22:45:53.209 * Connection with master lost.
+1:S 07 Nov 2023 22:45:53.214 * Caching the disconnected master state.
+1:S 07 Nov 2023 22:45:53.217 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 07 Nov 2023 22:45:53.233 * MASTER <-> REPLICA sync started
+1:S 07 Nov 2023 22:45:53.236 * Non blocking connect for SYNC fired the event.
+1:S 07 Nov 2023 22:45:53.240 * Master replied to PING, replication can continue...
+1:S 07 Nov 2023 22:45:53.247 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:78847).
+1:S 07 Nov 2023 22:45:53.253 * Successful partial resynchronization with master.
+1:S 07 Nov 2023 22:45:53.255 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 07 Nov 2023 23:46:35.683 # Cluster state changed: fail
+1:S 07 Nov 2023 23:46:35.713 * Cluster state changed: ok
+1:S 07 Nov 2023 23:50:54.119 * Connection with master lost.
+1:S 07 Nov 2023 23:50:54.123 * Caching the disconnected master state.
+1:S 07 Nov 2023 23:50:54.127 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 07 Nov 2023 23:50:54.131 * MASTER <-> REPLICA sync started
+1:S 07 Nov 2023 23:50:54.134 * Non blocking connect for SYNC fired the event.
+1:S 07 Nov 2023 23:50:54.138 * Master replied to PING, replication can continue...
+1:S 07 Nov 2023 23:50:54.142 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:83775).
+1:S 07 Nov 2023 23:50:54.154 * Successful partial resynchronization with master.
+1:S 07 Nov 2023 23:50:54.156 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 01:06:45.452 # MASTER timeout: no data nor PING received...
+1:S 08 Nov 2023 01:06:45.460 * Connection with master lost.
+1:S 08 Nov 2023 01:06:45.465 * Caching the disconnected master state.
+1:S 08 Nov 2023 01:06:45.472 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 01:06:45.478 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 01:06:45.482 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 01:06:45.487 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 01:06:45.491 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:88619).
+1:S 08 Nov 2023 01:06:45.499 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 01:06:45.502 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 01:25:15.709 * Connection with master lost.
+1:S 08 Nov 2023 01:25:15.713 * Caching the disconnected master state.
+1:S 08 Nov 2023 01:25:15.717 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 01:25:15.722 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 01:25:15.725 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 01:25:15.729 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 01:25:15.733 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:88703).
+1:S 08 Nov 2023 01:25:15.745 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 01:25:15.747 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 02:52:59.896 # MASTER timeout: no data nor PING received...
+1:S 08 Nov 2023 02:52:59.902 * Connection with master lost.
+1:S 08 Nov 2023 02:52:59.907 * Caching the disconnected master state.
+1:S 08 Nov 2023 02:52:59.912 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 02:52:59.916 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 02:52:59.919 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 02:52:59.923 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 02:52:59.927 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:94359).
+1:S 08 Nov 2023 02:52:59.933 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 02:52:59.935 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 04:09:03.370 * Connection with master lost.
+1:S 08 Nov 2023 04:09:03.376 * Caching the disconnected master state.
+1:S 08 Nov 2023 04:09:03.380 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 04:09:03.384 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 04:09:03.390 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 04:09:03.397 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 04:09:03.403 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:99217).
+1:S 08 Nov 2023 04:09:03.414 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 04:09:03.419 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 05:25:22.861 # MASTER timeout: no data nor PING received...
+1:S 08 Nov 2023 05:25:22.868 * Connection with master lost.
+1:S 08 Nov 2023 05:25:22.874 * Caching the disconnected master state.
+1:S 08 Nov 2023 05:25:22.880 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 05:25:22.886 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 05:25:22.890 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 05:25:22.894 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 05:25:22.899 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:104103).
+1:S 08 Nov 2023 05:25:22.906 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 05:25:22.909 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 06:37:37.420 # MASTER timeout: no data nor PING received...
+1:S 08 Nov 2023 06:37:37.428 * Connection with master lost.
+1:S 08 Nov 2023 06:37:37.433 * Caching the disconnected master state.
+1:S 08 Nov 2023 06:37:37.438 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 06:37:37.444 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 06:37:37.448 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 06:37:37.453 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 06:37:37.457 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:109283).
+1:S 08 Nov 2023 06:37:37.464 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 06:37:37.466 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 10:01:38.731 # MASTER timeout: no data nor PING received...
+1:S 08 Nov 2023 10:01:38.734 * Connection with master lost.
+1:S 08 Nov 2023 10:01:38.736 * Caching the disconnected master state.
+1:S 08 Nov 2023 10:01:38.738 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 10:01:38.740 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 10:01:38.742 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 10:01:38.745 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 10:01:38.748 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:121911).
+1:S 08 Nov 2023 10:01:38.752 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 10:01:38.753 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 11:02:41.390 # MASTER timeout: no data nor PING received...
+1:S 08 Nov 2023 11:02:41.393 * Connection with master lost.
+1:S 08 Nov 2023 11:02:41.395 * Caching the disconnected master state.
+1:S 08 Nov 2023 11:02:41.397 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 11:02:41.400 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 11:02:41.402 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 11:02:41.410 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 11:02:41.415 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:121953).
+1:S 08 Nov 2023 11:02:41.424 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 11:02:41.427 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 12:26:57.378 # MASTER timeout: no data nor PING received...
+1:S 08 Nov 2023 12:26:57.381 * Connection with master lost.
+1:S 08 Nov 2023 12:26:57.383 * Caching the disconnected master state.
+1:S 08 Nov 2023 12:26:57.385 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 12:26:57.388 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 12:26:57.390 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 12:26:57.393 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 12:26:57.396 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:121981).
+1:S 08 Nov 2023 12:26:57.401 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 12:26:57.403 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 13:35:20.773 # MASTER timeout: no data nor PING received...
+1:S 08 Nov 2023 13:35:20.775 * Connection with master lost.
+1:S 08 Nov 2023 13:35:20.777 * Caching the disconnected master state.
+1:S 08 Nov 2023 13:35:20.781 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 13:35:20.783 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 13:35:20.786 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 13:35:20.789 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 13:35:20.792 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122023).
+1:S 08 Nov 2023 13:35:20.796 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 13:35:20.798 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 13:42:07.536 * Connection with master lost.
+1:S 08 Nov 2023 13:42:07.539 * Caching the disconnected master state.
+1:S 08 Nov 2023 13:42:07.541 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 13:42:07.543 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 13:42:07.545 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 13:42:07.548 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 13:42:07.552 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122065).
+1:S 08 Nov 2023 13:42:07.558 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 13:42:07.559 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 14:21:06.324 # MASTER timeout: no data nor PING received...
+1:S 08 Nov 2023 14:21:06.327 * Connection with master lost.
+1:S 08 Nov 2023 14:21:06.329 * Caching the disconnected master state.
+1:S 08 Nov 2023 14:21:06.333 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 14:21:06.336 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 14:21:06.337 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 14:21:06.340 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 14:21:06.343 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122107).
+1:S 08 Nov 2023 14:21:06.349 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 14:21:06.350 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 15:44:41.094 # MASTER timeout: no data nor PING received...
+1:S 08 Nov 2023 15:44:41.097 * Connection with master lost.
+1:S 08 Nov 2023 15:44:41.099 * Caching the disconnected master state.
+1:S 08 Nov 2023 15:44:41.102 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 15:44:41.105 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 15:44:41.108 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 15:44:41.111 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 15:44:41.114 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122149).
+1:S 08 Nov 2023 15:44:41.119 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 15:44:41.121 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 16:52:07.736 * Connection with master lost.
+1:S 08 Nov 2023 16:52:07.742 * Caching the disconnected master state.
+1:S 08 Nov 2023 16:52:07.749 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 16:52:07.753 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 16:52:07.758 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 16:52:07.764 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 16:52:07.770 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122177).
+1:S 08 Nov 2023 16:52:07.779 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 16:52:07.781 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 18:13:30.461 * Connection with master lost.
+1:S 08 Nov 2023 18:13:30.467 * Caching the disconnected master state.
+1:S 08 Nov 2023 18:13:30.473 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 18:13:30.478 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 18:13:30.482 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 18:13:30.487 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 18:13:30.492 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122219).
+1:S 08 Nov 2023 18:13:30.500 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 18:13:30.502 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 19:38:04.872 * Connection with master lost.
+1:S 08 Nov 2023 19:38:04.877 * Caching the disconnected master state.
+1:S 08 Nov 2023 19:38:04.881 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 19:38:04.885 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 19:38:04.889 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 19:38:04.894 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 19:38:04.898 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122261).
+1:S 08 Nov 2023 19:38:04.905 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 19:38:04.907 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 20:58:08.188 * Connection with master lost.
+1:S 08 Nov 2023 20:58:08.195 * Caching the disconnected master state.
+1:S 08 Nov 2023 20:58:08.201 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 20:58:08.206 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 20:58:08.210 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 20:58:08.216 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 20:58:08.221 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122303).
+1:S 08 Nov 2023 20:58:08.228 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 20:58:08.231 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 22:04:12.954 * Connection with master lost.
+1:S 08 Nov 2023 22:04:12.956 * Caching the disconnected master state.
+1:S 08 Nov 2023 22:04:12.961 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 22:04:12.965 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 22:04:12.969 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 22:04:12.974 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 22:04:12.980 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122345).
+1:S 08 Nov 2023 22:04:12.987 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 22:04:12.990 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 08 Nov 2023 23:26:05.265 # MASTER timeout: no data nor PING received...
+1:S 08 Nov 2023 23:26:05.277 * Connection with master lost.
+1:S 08 Nov 2023 23:26:05.283 * Caching the disconnected master state.
+1:S 08 Nov 2023 23:26:05.291 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 08 Nov 2023 23:26:05.297 * MASTER <-> REPLICA sync started
+1:S 08 Nov 2023 23:26:05.301 * Non blocking connect for SYNC fired the event.
+1:S 08 Nov 2023 23:26:05.310 * Master replied to PING, replication can continue...
+1:S 08 Nov 2023 23:26:05.315 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122373).
+1:S 08 Nov 2023 23:26:05.322 * Successful partial resynchronization with master.
+1:S 08 Nov 2023 23:26:05.325 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 09 Nov 2023 00:36:50.907 * Connection with master lost.
+1:S 09 Nov 2023 00:36:50.914 * Caching the disconnected master state.
+1:S 09 Nov 2023 00:36:50.919 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 00:36:50.923 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 00:36:50.929 * Non blocking connect for SYNC fired the event.
+1:S 09 Nov 2023 00:36:50.934 * Master replied to PING, replication can continue...
+1:S 09 Nov 2023 00:36:50.939 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122415).
+1:S 09 Nov 2023 00:36:50.947 * Successful partial resynchronization with master.
+1:S 09 Nov 2023 00:36:50.950 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 09 Nov 2023 01:52:29.662 # MASTER timeout: no data nor PING received...
+1:S 09 Nov 2023 01:52:29.672 * Connection with master lost.
+1:S 09 Nov 2023 01:52:29.679 * Caching the disconnected master state.
+1:S 09 Nov 2023 01:52:29.686 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 01:52:29.692 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 01:52:29.696 * Non blocking connect for SYNC fired the event.
+1:S 09 Nov 2023 01:52:29.704 * Master replied to PING, replication can continue...
+1:S 09 Nov 2023 01:52:29.709 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122457).
+1:S 09 Nov 2023 01:52:29.716 * Successful partial resynchronization with master.
+1:S 09 Nov 2023 01:52:29.718 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 09 Nov 2023 02:49:55.853 # MASTER timeout: no data nor PING received...
+1:S 09 Nov 2023 02:49:55.863 * Connection with master lost.
+1:S 09 Nov 2023 02:49:55.871 * Caching the disconnected master state.
+1:S 09 Nov 2023 02:49:55.876 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 02:49:55.880 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 02:49:55.886 * Non blocking connect for SYNC fired the event.
+1:S 09 Nov 2023 02:49:55.893 * Master replied to PING, replication can continue...
+1:S 09 Nov 2023 02:49:55.898 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122499).
+1:S 09 Nov 2023 02:49:55.905 * Successful partial resynchronization with master.
+1:S 09 Nov 2023 02:49:55.908 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 09 Nov 2023 03:55:13.012 * Connection with master lost.
+1:S 09 Nov 2023 03:55:13.019 * Caching the disconnected master state.
+1:S 09 Nov 2023 03:55:13.023 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 03:55:13.028 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 03:55:13.031 * Non blocking connect for SYNC fired the event.
+1:S 09 Nov 2023 03:55:13.037 * Master replied to PING, replication can continue...
+1:S 09 Nov 2023 03:55:13.061 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122541).
+1:S 09 Nov 2023 03:55:13.069 * Successful partial resynchronization with master.
+1:S 09 Nov 2023 03:55:13.072 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 09 Nov 2023 05:16:12.556 * Connection with master lost.
+1:S 09 Nov 2023 05:16:12.563 * Caching the disconnected master state.
+1:S 09 Nov 2023 05:16:12.568 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 05:16:12.573 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 05:16:12.577 * Non blocking connect for SYNC fired the event.
+1:S 09 Nov 2023 05:16:12.582 * Master replied to PING, replication can continue...
+1:S 09 Nov 2023 05:16:12.587 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122569).
+1:S 09 Nov 2023 05:16:12.595 * Successful partial resynchronization with master.
+1:S 09 Nov 2023 05:16:12.597 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 09 Nov 2023 06:09:02.234 # MASTER timeout: no data nor PING received...
+1:S 09 Nov 2023 06:09:02.240 * Connection with master lost.
+1:S 09 Nov 2023 06:09:02.243 * Caching the disconnected master state.
+1:S 09 Nov 2023 06:09:02.247 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 06:09:02.251 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 06:09:02.253 * Non blocking connect for SYNC fired the event.
+1:S 09 Nov 2023 06:09:02.257 * Master replied to PING, replication can continue...
+1:S 09 Nov 2023 06:09:02.261 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122611).
+1:S 09 Nov 2023 06:09:02.266 * Successful partial resynchronization with master.
+1:S 09 Nov 2023 06:09:02.268 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 09 Nov 2023 07:14:33.456 # MASTER timeout: no data nor PING received...
+1:S 09 Nov 2023 07:14:33.462 * Connection with master lost.
+1:S 09 Nov 2023 07:14:33.467 * Caching the disconnected master state.
+1:S 09 Nov 2023 07:14:33.472 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 07:14:33.478 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 07:14:33.481 * Non blocking connect for SYNC fired the event.
+1:S 09 Nov 2023 07:14:33.485 * Master replied to PING, replication can continue...
+1:S 09 Nov 2023 07:14:33.490 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122653).
+1:S 09 Nov 2023 07:14:33.497 * Successful partial resynchronization with master.
+1:S 09 Nov 2023 07:14:33.500 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 09 Nov 2023 08:38:32.179 # MASTER timeout: no data nor PING received...
+1:S 09 Nov 2023 08:38:32.189 * Connection with master lost.
+1:S 09 Nov 2023 08:38:32.197 * Caching the disconnected master state.
+1:S 09 Nov 2023 08:38:32.206 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 08:38:32.212 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 08:38:32.216 * Non blocking connect for SYNC fired the event.
+1:S 09 Nov 2023 08:38:32.221 * Master replied to PING, replication can continue...
+1:S 09 Nov 2023 08:38:32.226 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122695).
+1:S 09 Nov 2023 08:38:32.234 * Successful partial resynchronization with master.
+1:S 09 Nov 2023 08:38:32.237 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 09 Nov 2023 09:59:04.292 * Connection with master lost.
+1:S 09 Nov 2023 09:59:04.295 * Caching the disconnected master state.
+1:S 09 Nov 2023 09:59:04.299 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 09:59:04.303 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 09:59:04.305 * Non blocking connect for SYNC fired the event.
+1:S 09 Nov 2023 09:59:04.309 * Master replied to PING, replication can continue...
+1:S 09 Nov 2023 09:59:04.314 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122737).
+1:S 09 Nov 2023 09:59:04.322 * Successful partial resynchronization with master.
+1:S 09 Nov 2023 09:59:04.324 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 09 Nov 2023 11:14:20.355 # MASTER timeout: no data nor PING received...
+1:S 09 Nov 2023 11:14:20.358 * Connection with master lost.
+1:S 09 Nov 2023 11:14:20.361 * Caching the disconnected master state.
+1:S 09 Nov 2023 11:14:20.364 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 11:14:20.366 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 11:14:20.368 * Non blocking connect for SYNC fired the event.
+1:S 09 Nov 2023 11:14:20.371 * Master replied to PING, replication can continue...
+1:S 09 Nov 2023 11:14:20.374 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122779).
+1:S 09 Nov 2023 11:14:20.378 * Successful partial resynchronization with master.
+1:S 09 Nov 2023 11:14:20.380 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 09 Nov 2023 11:15:43.226 # MASTER timeout: no data nor PING received...
+1:S 09 Nov 2023 11:15:43.233 * Connection with master lost.
+1:S 09 Nov 2023 11:15:43.240 * Caching the disconnected master state.
+1:S 09 Nov 2023 11:15:43.246 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 11:15:43.252 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 11:15:43.256 * Non blocking connect for SYNC fired the event.
+1:S 09 Nov 2023 11:15:43.262 * Master replied to PING, replication can continue...
+1:S 09 Nov 2023 11:15:43.268 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:122807).
+1:S 09 Nov 2023 11:15:43.278 * Successful partial resynchronization with master.
+1:S 09 Nov 2023 11:15:43.282 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 09 Nov 2023 11:46:51.006 * Connection with master lost.
+1:S 09 Nov 2023 11:46:51.012 * Caching the disconnected master state.
+1:S 09 Nov 2023 11:46:51.017 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 11:46:51.022 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 11:46:51.027 * Non blocking connect for SYNC fired the event.
+1:S 09 Nov 2023 11:46:51.031 * Master replied to PING, replication can continue...
+1:S 09 Nov 2023 11:46:51.035 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:125061).
+1:S 09 Nov 2023 11:46:51.043 * Successful partial resynchronization with master.
+1:S 09 Nov 2023 11:46:51.045 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 09 Nov 2023 13:50:05.083 # Cluster state changed: fail
+1:S 09 Nov 2023 13:58:32.435 # MASTER timeout: no data nor PING received...
+1:S 09 Nov 2023 13:58:32.443 * Connection with master lost.
+1:S 09 Nov 2023 13:58:32.450 * Caching the disconnected master state.
+1:S 09 Nov 2023 13:58:32.454 * Reconnecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:32.457 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:32.460 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:33.509 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:33.512 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:33.515 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:34.579 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:34.586 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:34.593 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:35.658 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:35.669 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:35.676 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:36.729 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:36.734 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:36.738 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:37.881 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:38.013 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:38.016 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:39.053 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:39.056 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:39.059 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:40.140 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:40.148 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:40.155 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:41.206 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:41.212 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:41.219 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:42.288 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:42.298 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:42.305 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:43.351 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:43.359 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:43.366 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:44.427 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:44.434 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:44.440 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:45.513 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:45.520 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:45.529 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:46.580 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:46.590 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:46.598 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:47.643 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:47.653 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:47.660 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:48.711 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:48.714 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:48.719 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:49.785 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:49.796 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:49.801 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:50.855 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:50.863 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:50.873 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:51.913 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:51.918 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:51.924 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:52.996 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:53.008 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:53.018 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:54.057 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:54.063 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:54.072 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:55.121 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:55.131 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:55.143 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:56.179 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:56.186 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:56.190 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:57.794 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:57.804 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:57.809 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:58.858 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:58.867 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:58.875 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:58:59.924 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:58:59.932 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:58:59.939 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:59:00.985 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:59:00.992 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:59:00.998 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 13:59:02.049 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 13:59:02.057 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 13:59:02.066 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:40.115 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:40.122 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:40.131 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:41.170 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:41.180 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:41.189 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:42.236 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:42.244 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:42.253 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:43.305 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:43.315 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:43.325 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:44.386 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:44.396 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:44.404 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:45.451 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:45.461 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:45.470 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:46.509 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:46.518 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:46.527 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:47.590 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:47.600 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:47.610 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:48.652 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:48.657 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:48.661 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:49.716 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:49.722 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:49.730 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:50.806 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:50.817 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:50.824 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:51.867 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:51.875 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:51.882 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:53.041 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:53.050 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:53.058 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:54.106 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:54.117 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:54.127 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:55.160 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:55.166 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:55.172 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:56.231 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:56.239 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:56.249 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:57.317 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:57.328 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:57.338 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:58.383 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:58.389 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:58.394 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:00:59.442 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:00:59.458 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:00:59.465 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:01:00.510 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:01:00.514 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:01:00.517 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:01:01.600 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:01:01.608 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:01:01.618 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:01:02.666 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:01:02.672 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:01:02.679 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:01:03.731 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:01:03.738 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:01:03.749 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:01:04.788 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:01:04.797 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:01:04.804 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:01:05.855 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:01:05.862 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:01:05.867 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:01:07.334 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:01:07.342 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:01:07.353 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:01:08.408 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:01:08.419 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:01:08.424 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:02:50.780 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:02:50.789 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:02:50.796 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:02:51.841 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:02:51.844 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:02:51.846 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:02:52.897 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:02:52.908 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:02:52.916 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:02:53.970 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:02:53.980 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:02:53.986 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:02:55.026 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:02:55.032 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:02:55.036 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:02:56.088 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:02:56.096 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:02:56.104 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:02:57.145 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:02:57.150 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:02:57.154 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:02:58.206 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:02:58.214 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:02:58.223 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:02:59.291 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:02:59.294 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:02:59.297 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:03:00.353 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:03:00.359 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:03:00.367 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:03:01.420 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:03:01.426 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:03:01.434 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:03:02.514 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:03:02.520 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:03:02.527 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:03:03.582 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:03:03.602 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:03:03.607 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:03:04.654 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:03:04.660 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:03:04.666 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:03:05.712 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:03:05.719 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:27:48.937 # Timeout connecting to the MASTER...
+1:S 09 Nov 2023 14:27:48.944 * Reconnecting to MASTER 192.168.1.7:7002 after failure
+1:S 09 Nov 2023 14:27:48.952 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:27:59.968 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:28:00.590 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:28:00.594 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 14:28:11.613 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 14:28:12.233 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 14:28:12.241 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 15:32:04.486 # Timeout connecting to the MASTER...
+1:S 09 Nov 2023 15:32:04.493 * Reconnecting to MASTER 192.168.1.7:7002 after failure
+1:S 09 Nov 2023 15:32:04.500 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 15:32:11.977 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 15:32:12.937 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 15:32:12.945 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 15:32:24.205 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 15:32:24.382 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 15:32:24.391 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 15:32:29.409 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 15:32:29.774 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 15:32:29.784 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 16:07:10.398 # Timeout connecting to the MASTER...
+1:S 09 Nov 2023 16:07:10.519 * Reconnecting to MASTER 192.168.1.7:7002 after failure
+1:S 09 Nov 2023 16:07:10.525 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 16:07:17.529 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 16:07:17.948 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 16:07:17.956 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 16:07:28.970 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 16:07:29.682 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 16:07:29.693 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 17:47:58.625 # Timeout connecting to the MASTER...
+1:S 09 Nov 2023 17:47:58.633 * Reconnecting to MASTER 192.168.1.7:7002 after failure
+1:S 09 Nov 2023 17:47:58.639 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 17:48:09.650 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 17:48:09.954 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 17:48:09.962 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 17:48:20.973 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 17:48:21.795 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 17:48:21.805 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 19:29:03.625 # Timeout connecting to the MASTER...
+1:S 09 Nov 2023 19:29:03.684 * Reconnecting to MASTER 192.168.1.7:7002 after failure
+1:S 09 Nov 2023 19:29:03.693 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 19:29:10.699 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 19:29:11.743 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 19:29:11.751 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 19:29:22.769 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 19:29:23.465 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 19:29:23.475 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 19:29:28.925 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 19:29:29.791 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 19:29:29.796 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 20:52:01.586 # Timeout connecting to the MASTER...
+1:S 09 Nov 2023 20:52:01.596 * Reconnecting to MASTER 192.168.1.7:7002 after failure
+1:S 09 Nov 2023 20:52:01.604 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 20:52:07.339 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 20:52:08.233 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 20:52:08.244 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 20:52:15.256 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 20:52:16.300 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 20:52:16.312 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 20:52:21.327 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 20:52:21.648 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 20:52:21.658 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 20:52:26.664 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 20:52:27.051 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 20:52:27.063 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 22:28:41.476 # Timeout connecting to the MASTER...
+1:S 09 Nov 2023 22:28:41.481 * Reconnecting to MASTER 192.168.1.7:7002 after failure
+1:S 09 Nov 2023 22:28:41.484 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 22:28:46.496 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 22:28:46.846 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 22:28:46.880 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 22:28:51.897 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 22:28:52.240 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 22:28:52.246 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 22:28:57.263 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 22:28:57.648 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 22:28:57.661 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 22:29:02.670 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 22:29:03.090 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 22:29:03.095 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 22:29:08.106 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 22:29:08.401 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 22:29:08.410 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 23:49:33.820 # Timeout connecting to the MASTER...
+1:S 09 Nov 2023 23:49:33.832 * Reconnecting to MASTER 192.168.1.7:7002 after failure
+1:S 09 Nov 2023 23:49:33.838 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 23:49:39.545 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 23:49:40.050 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 23:49:40.059 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 23:49:45.752 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 23:49:46.276 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 23:49:46.283 * MASTER <-> REPLICA sync started
+1:S 09 Nov 2023 23:49:53.332 # Error condition on socket for SYNC: Connection refused
+1:S 09 Nov 2023 23:49:53.781 * Connecting to MASTER 192.168.1.7:7002
+1:S 09 Nov 2023 23:49:53.788 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 00:40:53.525 # Timeout connecting to the MASTER...
+1:S 10 Nov 2023 00:40:53.532 * Reconnecting to MASTER 192.168.1.7:7002 after failure
+1:S 10 Nov 2023 00:40:53.538 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 00:40:58.552 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 00:40:58.954 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 00:40:58.963 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 00:41:05.983 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 00:41:06.365 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 00:41:06.376 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:24.851 # Timeout connecting to the MASTER...
+1:S 10 Nov 2023 01:13:24.857 * Reconnecting to MASTER 192.168.1.7:7002 after failure
+1:S 10 Nov 2023 01:13:24.861 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:24.866 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:25.922 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:25.930 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:25.938 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:26.986 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:26.992 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:26.997 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:28.036 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:28.043 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:28.050 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:29.101 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:29.109 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:29.116 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:30.161 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:30.165 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:30.169 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:31.237 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:31.246 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:31.252 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:32.307 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:32.318 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:32.326 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:33.379 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:33.388 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:33.397 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:34.451 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:34.459 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:34.469 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:35.506 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:35.514 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:35.519 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:36.579 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:36.587 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:36.594 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:37.730 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:37.739 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:37.744 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:38.797 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:38.805 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:38.811 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:39.858 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:39.865 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:39.871 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:40.936 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:40.946 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:40.952 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:42.004 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:42.013 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:42.018 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:43.069 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:43.076 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:43.084 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:44.135 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:44.142 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:44.150 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:45.191 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:45.194 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:45.196 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:46.257 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:46.264 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:46.270 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:47.326 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:47.339 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:47.347 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:48.487 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:48.498 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:48.510 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:49.546 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:49.558 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:49.566 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:50.615 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:50.620 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:50.624 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:51.762 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:51.772 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:51.782 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:13:52.818 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:13:52.825 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:13:52.830 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:23.900 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:23.911 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:23.916 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:24.961 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:24.964 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:24.967 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:26.030 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:26.037 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:26.042 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:27.105 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:27.112 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:27.119 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:28.176 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:28.181 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:28.188 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:29.235 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:29.243 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:29.251 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:30.352 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:30.358 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:30.364 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:31.412 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:31.420 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:31.427 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:32.483 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:32.490 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:32.497 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:33.560 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:33.566 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:33.573 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:34.625 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:34.636 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:34.642 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:35.698 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:35.705 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:35.712 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:36.768 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:36.775 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:36.785 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:37.831 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:37.837 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:37.845 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:38.912 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:38.918 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:38.924 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:39.981 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:39.984 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:39.988 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:41.040 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:41.045 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:41.052 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:42.112 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:42.117 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:42.123 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:43.215 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:43.219 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:43.322 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:44.294 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:44.303 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:44.312 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:45.352 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:45.363 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:45.372 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:46.420 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:46.428 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:46.436 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:47.474 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:47.480 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:47.485 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:48.564 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:48.572 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:48.581 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:49.621 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:49.630 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:49.636 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:50.702 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:50.710 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:50.716 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:51.749 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:51.756 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:51.763 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:52.799 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:52.801 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:52.804 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:15:53.847 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:15:53.856 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:15:53.867 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:16:45.067 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:16:45.079 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:16:45.089 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:16:46.127 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:16:46.134 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:16:46.142 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:16:47.177 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:16:47.185 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:16:47.193 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:16:48.240 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:16:48.246 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:16:48.253 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:16:49.308 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:16:49.312 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:16:49.318 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:16:50.384 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:16:50.389 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:16:50.393 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:16:51.469 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:16:51.484 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:16:51.488 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:16:52.540 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:16:52.548 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:16:52.559 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:16:53.601 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:16:53.611 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:16:53.621 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:16:54.665 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:16:54.675 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:16:54.687 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:16:55.740 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:16:55.751 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:16:55.758 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:16:56.806 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:16:56.815 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:16:56.825 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:16:57.870 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:16:57.880 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:16:57.890 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:16:58.980 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:16:58.990 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:16:59.002 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:17:00.038 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:17:00.051 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:17:00.054 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:17:01.098 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:17:01.107 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:17:01.117 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:17:02.177 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:17:02.193 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:17:02.201 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:17:03.253 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:17:03.263 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:17:03.268 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:17:04.315 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:17:04.325 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:17:04.337 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:17:05.407 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:17:05.411 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:17:05.415 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:17:06.467 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:17:06.477 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:17:06.486 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:17:07.550 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:17:07.563 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:17:07.574 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:17:08.604 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:17:08.612 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:17:08.624 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:17:09.662 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:17:09.676 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:17:09.686 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:17:10.726 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:17:10.739 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:17:10.751 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:17:11.791 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:17:11.807 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:17:11.815 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:17:12.856 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:17:12.867 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:17:12.879 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:17:13.928 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:17:13.939 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:17:13.944 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:01.201 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:01.212 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:01.221 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:02.271 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:02.280 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:02.289 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:03.370 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:03.396 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:03.399 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:04.463 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:04.477 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:04.490 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:05.527 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:05.540 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:05.548 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:06.599 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:06.609 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:06.616 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:07.663 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:07.671 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:07.681 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:08.742 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:08.753 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:08.762 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:09.816 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:09.829 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:09.839 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:10.881 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:10.897 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:10.906 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:11.943 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:11.952 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:11.964 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:12.999 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:13.010 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:13.028 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:14.059 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:14.068 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:14.077 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:15.127 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:15.142 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:15.150 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:16.308 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:16.315 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:16.322 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:17.393 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:17.410 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:17.418 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:18.464 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:18.475 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:18.489 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:19.539 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:19.552 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:19.561 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:20.597 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:20.608 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:20.620 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:21.670 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:21.681 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:21.689 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:22.733 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:22.743 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:22.757 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:23.789 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:23.801 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:23.812 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:24.875 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:24.885 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:24.893 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:25.940 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:25.949 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:25.964 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:27.122 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:27.130 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:27.135 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:28.159 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:28.167 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:28.175 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:29.201 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:29.206 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:29.212 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:18:30.245 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:18:30.254 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:18:30.265 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:38:35.001 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:38:35.009 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:38:35.021 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:38:36.033 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:38:36.041 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:38:36.047 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:38:37.071 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:38:37.080 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:38:37.088 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:38:38.107 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:38:38.113 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:38:38.120 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:38:39.141 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:38:39.149 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:38:39.160 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:38:40.175 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:38:40.178 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:38:40.181 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:38:41.230 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:38:41.240 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:38:41.249 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:38:42.274 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:38:42.289 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:38:42.297 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:38:43.319 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:38:43.329 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:38:43.336 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:38:44.357 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:38:44.366 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:38:44.374 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:38:45.398 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:38:45.410 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:38:45.419 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:38:46.449 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:38:46.461 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:38:46.468 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:38:47.492 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:38:47.503 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:38:47.515 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:38:48.542 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:38:48.551 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:38:48.559 # Error condition on socket for SYNC: Connection refused
+1:S 10 Nov 2023 01:38:48.768 * Marking node e2fab8d10fbf6a9b8cae96db72a005db6c0a8f1c () as failing (quorum reached).
+1:S 10 Nov 2023 01:38:48.792 * Marking node 77204857a76faf28eada3537888916189df1c972 () as failing (quorum reached).
+1:S 10 Nov 2023 01:38:48.803 * Marking node 69f480a384a944e3b9d44de37dda762f7a384244 () as failing (quorum reached).
+1:S 10 Nov 2023 01:38:48.834 * Marking node 00cb1aeef41c41d6e1dbe824e02c3715659a0021 () as failing (quorum reached).
+1:S 10 Nov 2023 01:38:48.860 * Marking node 85bef130e16f88ebf32c54b1d19d1169a4a698d0 () as failing (quorum reached).
+1:S 10 Nov 2023 01:38:48.877 * Clear FAIL state for node 69f480a384a944e3b9d44de37dda762f7a384244 ():replica is reachable again.
+1:S 10 Nov 2023 01:38:48.891 * Clear FAIL state for node 77204857a76faf28eada3537888916189df1c972 ():replica is reachable again.
+1:S 10 Nov 2023 01:38:49.642 * Connecting to MASTER 192.168.1.7:7002
+1:S 10 Nov 2023 01:38:49.647 * MASTER <-> REPLICA sync started
+1:S 10 Nov 2023 01:38:49.651 * Non blocking connect for SYNC fired the event.
+1:S 10 Nov 2023 01:38:49.659 * Master replied to PING, replication can continue...
+1:S 10 Nov 2023 01:38:49.666 * Trying a partial resynchronization (request 0698ca020a528be552a963aa2f4907538b3867d5:135071).
+1:S 10 Nov 2023 01:38:54.295 * Full resync from master: 8f30df6acd87d733070411777c49461b77e9dd43:135084
+1:S 10 Nov 2023 01:38:54.307 * MASTER <-> REPLICA sync: receiving streamed RDB from master with EOF to disk
+1:S 10 Nov 2023 01:38:54.315 * Discarding previously cached master state.
+1:S 10 Nov 2023 01:38:54.321 * MASTER <-> REPLICA sync: Flushing old data
+1:S 10 Nov 2023 01:38:54.325 * MASTER <-> REPLICA sync: Loading DB in memory
+1:S 10 Nov 2023 01:38:54.336 * Loading RDB produced by version 7.2.1
+1:S 10 Nov 2023 01:38:54.340 * RDB age 0 seconds
+1:S 10 Nov 2023 01:38:54.343 * RDB memory usage when created 2.23 Mb
+1:S 10 Nov 2023 01:38:54.346 * Done loading RDB, keys loaded: 1, keys expired: 0.
+1:S 10 Nov 2023 01:38:54.351 * MASTER <-> REPLICA sync: Finished with success
+1:S 10 Nov 2023 01:38:54.358 * Creating AOF incr file temp-appendonly.aof.incr on background rewrite
+1:S 10 Nov 2023 01:38:54.362 * Background append only file rewriting started by pid 27
+27:C 10 Nov 2023 01:38:54.371 * Successfully created the temporary AOF base file temp-rewriteaof-bg-27.aof
+27:C 10 Nov 2023 01:38:54.375 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+1:S 10 Nov 2023 01:38:54.377 * Start of election delayed for 578 milliseconds (rank #0, offset 135084).
+1:S 10 Nov 2023 01:38:54.482 * Background AOF rewrite terminated with success
+1:S 10 Nov 2023 01:38:54.486 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-27.aof into appendonly.aof.3.base.rdb
+1:S 10 Nov 2023 01:38:54.493 * Successfully renamed the temporary AOF incr file temp-appendonly.aof.incr into appendonly.aof.3.incr.aof
+1:S 10 Nov 2023 01:38:54.505 * Removing the history file appendonly.aof.2.incr.aof in the background
+1:S 10 Nov 2023 01:38:54.527 * Removing the history file appendonly.aof.2.base.rdb in the background
+1:S 10 Nov 2023 01:38:54.539 * Background AOF rewrite finished successfully
+1:S 10 Nov 2023 01:38:54.957 * Starting a failover election for epoch 7.
+1:S 10 Nov 2023 01:38:54.976 * Failover election won: I'm the new master.
+1:S 10 Nov 2023 01:38:54.978 * configEpoch set to 7 after successful failover
+1:M 10 Nov 2023 01:38:54.980 * Connection with master lost.
+1:M 10 Nov 2023 01:38:54.982 * Caching the disconnected master state.
+1:M 10 Nov 2023 01:38:54.985 * Discarding previously cached master state.
+1:M 10 Nov 2023 01:38:54.988 * Setting secondary replication ID to 8f30df6acd87d733070411777c49461b77e9dd43, valid up to offset: 135085. New replication ID is 427e21362e3693e622f4571162ce2eaacb7f279e
+1:M 10 Nov 2023 01:38:55.061 * Replica 172.17.0.1:7002 asks for synchronization
+1:M 10 Nov 2023 01:38:55.075 * Partial resynchronization request from 172.17.0.1:7002 accepted. Sending 0 bytes of backlog starting from offset 135085.
+1:M 10 Nov 2023 01:38:55.588 * Failover auth granted to 77204857a76faf28eada3537888916189df1c972 () for epoch 8
+1:M 10 Nov 2023 01:38:55.657 * Failover auth granted to 69f480a384a944e3b9d44de37dda762f7a384244 () for epoch 9
+1:M 10 Nov 2023 01:38:56.594 * Clear FAIL state for node 00cb1aeef41c41d6e1dbe824e02c3715659a0021 ():replica is reachable again.
+1:M 10 Nov 2023 01:38:57.204 * Clear FAIL state for node e2fab8d10fbf6a9b8cae96db72a005db6c0a8f1c ():master without slots is reachable again.
+1:M 10 Nov 2023 01:38:57.310 * Clear FAIL state for node 85bef130e16f88ebf32c54b1d19d1169a4a698d0 ():master without slots is reachable again.
+1:M 10 Nov 2023 01:39:00.591 * Cluster state changed: ok
+1:M 10 Nov 2023 04:06:27.002 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7002
+1:M 10 Nov 2023 04:06:27.007 * Connection with replica 172.17.0.1:7002 lost.
+1:M 10 Nov 2023 04:06:27.064 * Replica 172.17.0.1:7002 asks for synchronization
+1:M 10 Nov 2023 04:06:27.069 * Partial resynchronization request from 172.17.0.1:7002 accepted. Sending 0 bytes of backlog starting from offset 144269.
+1:M 10 Nov 2023 05:20:05.784 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7002
+1:M 10 Nov 2023 05:20:05.787 * Connection with replica 172.17.0.1:7002 lost.
+1:M 10 Nov 2023 05:20:05.821 * Replica 172.17.0.1:7002 asks for synchronization
+1:M 10 Nov 2023 05:20:05.826 * Partial resynchronization request from 172.17.0.1:7002 accepted. Sending 0 bytes of backlog starting from offset 149505.
+1:M 10 Nov 2023 05:35:51.882 * Connection with replica 172.17.0.1:7002 lost.
+1:M 10 Nov 2023 05:35:51.907 * Replica 172.17.0.1:7002 asks for synchronization
+1:M 10 Nov 2023 05:35:51.910 * Partial resynchronization request from 172.17.0.1:7002 accepted. Sending 0 bytes of backlog starting from offset 149547.
+1:M 10 Nov 2023 05:52:41.947 # Disconnecting timedout replica (streaming sync): 172.17.0.1:7002
+1:M 10 Nov 2023 05:52:41.958 * Connection with replica 172.17.0.1:7002 lost.
+1:M 10 Nov 2023 05:52:42.010 * Replica 172.17.0.1:7002 asks for synchronization
+1:M 10 Nov 2023 05:52:42.013 * Partial resynchronization request from 172.17.0.1:7002 accepted. Sending 0 bytes of backlog starting from offset 149631.
+1:M 10 Nov 2023 07:28:20.254 * 1 changes in 3600 seconds. Saving...
+1:M 10 Nov 2023 07:28:20.270 * Background saving started by pid 28
+28:C 10 Nov 2023 07:28:20.321 * DB saved on disk
+28:C 10 Nov 2023 07:28:20.327 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 10 Nov 2023 07:28:20.390 * Background saving terminated with success
+1:M 10 Nov 2023 08:28:21.092 * 1 changes in 3600 seconds. Saving...
+1:M 10 Nov 2023 08:28:21.101 * Background saving started by pid 29
+29:C 10 Nov 2023 08:28:21.112 * DB saved on disk
+29:C 10 Nov 2023 08:28:21.117 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 10 Nov 2023 08:28:21.206 * Background saving terminated with success

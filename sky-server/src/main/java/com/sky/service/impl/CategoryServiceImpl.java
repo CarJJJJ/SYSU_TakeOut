@@ -45,7 +45,7 @@ public class CategoryServiceImpl implements CategoryService {
         categoryMapper.update(category);
     }
 
-    public List<Category> getByType(int type){
+    public List<Category> getByType(Integer type){
         List<Category> list   = categoryMapper.list(type);
         return list;
     }
