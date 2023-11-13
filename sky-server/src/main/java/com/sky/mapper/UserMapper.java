@@ -19,4 +19,6 @@ public interface UserMapper {
      * @param user
      */
     void insert(User user);
+
+    User getById(Long userId);
 }
